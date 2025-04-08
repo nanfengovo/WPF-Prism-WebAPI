@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "TkHAcmVSPkE6dfjqRIajyCIMwIzcG6PzYss/5bY5W7c=",
+  "Source": "DailyApp.API",
+  "BasePath": "_content/DailyApp.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

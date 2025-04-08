@@ -1,0 +1,5 @@
+*.vsidx
+Logs
+*.log
+*.msi
+资料/

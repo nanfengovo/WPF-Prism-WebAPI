@@ -1,0 +1,204 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{533A5ADB-7964-4B52-9E18-3622062DEE1B}|DailyApp.API\\DailyApp.API.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.api\\dailyapp.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{533A5ADB-7964-4B52-9E18-3622062DEE1B}|DailyApp.API\\DailyApp.API.csproj|solutionrelative:dailyapp.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{533A5ADB-7964-4B52-9E18-3622062DEE1B}|DailyApp.API\\DailyApp.API.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.api\\dailyapp.api\\datamodel\\accountinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{533A5ADB-7964-4B52-9E18-3622062DEE1B}|DailyApp.API\\DailyApp.API.csproj|solutionrelative:dailyapp.api\\datamodel\\accountinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{533A5ADB-7964-4B52-9E18-3622062DEE1B}|DailyApp.API\\DailyApp.API.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.api\\dailyapp.api\\dtos\\accountinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{533A5ADB-7964-4B52-9E18-3622062DEE1B}|DailyApp.API\\DailyApp.API.csproj|solutionrelative:dailyapp.api\\dtos\\accountinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{533A5ADB-7964-4B52-9E18-3622062DEE1B}|DailyApp.API\\DailyApp.API.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.api\\dailyapp.api\\migrations\\20250406030738_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{533A5ADB-7964-4B52-9E18-3622062DEE1B}|DailyApp.API\\DailyApp.API.csproj|solutionrelative:dailyapp.api\\migrations\\20250406030738_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{533A5ADB-7964-4B52-9E18-3622062DEE1B}|DailyApp.API\\DailyApp.API.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.api\\dailyapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{533A5ADB-7964-4B52-9E18-3622062DEE1B}|DailyApp.API\\DailyApp.API.csproj|solutionrelative:dailyapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{533A5ADB-7964-4B52-9E18-3622062DEE1B}|DailyApp.API\\DailyApp.API.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.api\\dailyapp.api\\datamodel\\dailydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{533A5ADB-7964-4B52-9E18-3622062DEE1B}|DailyApp.API\\DailyApp.API.csproj|solutionrelative:dailyapp.api\\datamodel\\dailydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{533A5ADB-7964-4B52-9E18-3622062DEE1B}|DailyApp.API\\DailyApp.API.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.api\\dailyapp.api\\automappers\\automappersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{533A5ADB-7964-4B52-9E18-3622062DEE1B}|DailyApp.API\\DailyApp.API.csproj|solutionrelative:dailyapp.api\\automappers\\automappersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{533A5ADB-7964-4B52-9E18-3622062DEE1B}|DailyApp.API\\DailyApp.API.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.api\\dailyapp.api\\apireponses\\apireponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{533A5ADB-7964-4B52-9E18-3622062DEE1B}|DailyApp.API\\DailyApp.API.csproj|solutionrelative:dailyapp.api\\apireponses\\apireponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{533A5ADB-7964-4B52-9E18-3622062DEE1B}|DailyApp.API\\DailyApp.API.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.api\\dailyapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{533A5ADB-7964-4B52-9E18-3622062DEE1B}|DailyApp.API\\DailyApp.API.csproj|solutionrelative:dailyapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{533A5ADB-7964-4B52-9E18-3622062DEE1B}|DailyApp.API\\DailyApp.API.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.api\\dailyapp.api\\dailyapp.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{533A5ADB-7964-4B52-9E18-3622062DEE1B}|DailyApp.API\\DailyApp.API.csproj|solutionrelative:dailyapp.api\\dailyapp.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountInfoDTO.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\DTOs\\AccountInfoDTO.cs",
+              "RelativeDocumentMoniker": "DailyApp.API\\DTOs\\AccountInfoDTO.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\DTOs\\AccountInfoDTO.cs",
+              "RelativeToolTip": "DailyApp.API\\DTOs\\AccountInfoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T03:31:07.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "DailyApp.API\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "DailyApp.API\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAowGMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T03:26:12.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountInfo.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\DataModel\\AccountInfo.cs",
+              "RelativeDocumentMoniker": "DailyApp.API\\DataModel\\AccountInfo.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\DataModel\\AccountInfo.cs",
+              "RelativeToolTip": "DailyApp.API\\DataModel\\AccountInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T02:01:23.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AutoMapperSettings.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\AutoMappers\\AutoMapperSettings.cs",
+              "RelativeDocumentMoniker": "DailyApp.API\\AutoMappers\\AutoMapperSettings.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\AutoMappers\\AutoMapperSettings.cs",
+              "RelativeToolTip": "DailyApp.API\\AutoMappers\\AutoMapperSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T04:08:53.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DailyDbContext.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\DataModel\\DailyDbContext.cs",
+              "RelativeDocumentMoniker": "DailyApp.API\\DataModel\\DailyDbContext.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\DataModel\\DailyDbContext.cs",
+              "RelativeToolTip": "DailyApp.API\\DataModel\\DailyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T02:53:04.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\Program.cs",
+              "RelativeDocumentMoniker": "DailyApp.API\\Program.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\Program.cs",
+              "RelativeToolTip": "DailyApp.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T02:00:26.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250406030738_Init.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\Migrations\\20250406030738_Init.cs",
+              "RelativeDocumentMoniker": "DailyApp.API\\Migrations\\20250406030738_Init.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\Migrations\\20250406030738_Init.cs",
+              "RelativeToolTip": "DailyApp.API\\Migrations\\20250406030738_Init.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T03:07:39.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApiReponse.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\ApiReponses\\ApiReponse.cs",
+              "RelativeDocumentMoniker": "DailyApp.API\\ApiReponses\\ApiReponse.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\ApiReponses\\ApiReponse.cs",
+              "RelativeToolTip": "DailyApp.API\\ApiReponses\\ApiReponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T03:12:23.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\appsettings.json",
+              "RelativeDocumentMoniker": "DailyApp.API\\appsettings.json",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\appsettings.json",
+              "RelativeToolTip": "DailyApp.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-06T02:06:23.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DailyApp.API",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\DailyApp.API.csproj",
+              "RelativeDocumentMoniker": "DailyApp.API\\DailyApp.API.csproj",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\DailyApp.API.csproj",
+              "RelativeToolTip": "DailyApp.API\\DailyApp.API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-06T03:44:51.947Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

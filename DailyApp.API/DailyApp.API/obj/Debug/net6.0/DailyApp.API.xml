@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DailyApp.API</name>
+    </assembly>
+    <members>
+        <member name="T:DailyApp.API.ApiReponses.ApiReponse">
+            <summary>
+            响应模型
+            </summary>
+        </member>
+        <member name="P:DailyApp.API.ApiReponses.ApiReponse.ResultCode">
+            <summary>
+            结果编码
+            </summary>
+        </member>
+        <member name="P:DailyApp.API.ApiReponses.ApiReponse.Msg">
+            <summary>
+            结果信息
+            </summary>
+        </member>
+        <member name="P:DailyApp.API.ApiReponses.ApiReponse.ResultData">
+            <summary>
+            结果数据
+            </summary>
+        </member>
+        <member name="T:DailyApp.API.AutoMappers.AutoMapperSettings">
+            <summary>
+            model之间转换的配置
+            </summary>
+        </member>
+        <member name="T:DailyApp.API.Controllers.AccountController">
+            <summary>
+            账号控制器
+            </summary>
+        </member>
+        <member name="F:DailyApp.API.Controllers.AccountController.db">
+            <summary>
+            数据库上下文
+            </summary>
+        </member>
+        <member name="F:DailyApp.API.Controllers.AccountController.mapper">
+            <summary>
+            automapper
+            </summary>
+        </member>
+        <member name="M:DailyApp.API.Controllers.AccountController.#ctor(DailyApp.API.DataModel.DailyDbContext,AutoMapper.IMapper)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="_db">数据库连接</param>
+            <param name="_mapper">automapper</param>
+        </member>
+        <member name="M:DailyApp.API.Controllers.AccountController.Reg(DailyApp.API.DTOs.AccountInfoDTO)">
+            <summary>
+            注册账号
+            </summary>
+            <param name="accountInfoDTO">注册信息</param>
+            <returns>-1：账号已存在 1：注册成功 -99：未知错误</returns>
+        </member>
+        <member name="M:DailyApp.API.Controllers.AccountController.Login(System.String,System.String)">
+            <summary>
+            登录
+            </summary>
+            <param name="account">账号</param>
+            <param name="pwd">密码</param>
+            <returns></returns>
+        </member>
+        <member name="T:DailyApp.API.DataModel.AccountInfo">
+            <summary>
+            登录账号的数据模型
+            </summary>
+        </member>
+        <member name="P:DailyApp.API.DataModel.AccountInfo.AccountId">
+            <summary>
+            账号ID
+            </summary>
+        </member>
+        <member name="P:DailyApp.API.DataModel.AccountInfo.Name">
+            <summary>
+            账号名称
+            </summary>
+        </member>
+        <member name="P:DailyApp.API.DataModel.AccountInfo.Account">
+            <summary>
+            登录账号
+            </summary>
+        </member>
+        <member name="P:DailyApp.API.DataModel.AccountInfo.Pwd">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="T:DailyApp.API.DataModel.DailyDbContext">
+            <summary>
+            数据库上下文
+            </summary>
+        </member>
+        <member name="M:DailyApp.API.DataModel.DailyDbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{DailyApp.API.DataModel.DailyDbContext})">
+            <summary>
+            构造函数
+            </summary>
+            <param name="options"></param>
+        </member>
+        <member name="P:DailyApp.API.DataModel.DailyDbContext.AccountInfos">
+            <summary>
+            账号表  virtual=--懒汉加载
+            </summary>
+        </member>
+        <member name="T:DailyApp.API.DTOs.AccountInfoDTO">
+            <summary>
+            登录账号的数据传输对象(用来接收注册的信息)
+            </summary>
+        </member>
+        <member name="P:DailyApp.API.DTOs.AccountInfoDTO.Name">
+            <summary>
+            账号名称
+            </summary>
+        </member>
+        <member name="P:DailyApp.API.DTOs.AccountInfoDTO.Account">
+            <summary>
+            登录账号
+            </summary>
+        </member>
+        <member name="P:DailyApp.API.DTOs.AccountInfoDTO.Pwd">
+            <summary>
+            密码
+            </summary>
+        </member>
+    </members>
+</doc>

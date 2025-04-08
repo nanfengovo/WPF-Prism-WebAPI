@@ -1,0 +1,105 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "DailyApp.API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Account/Reg": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "summary": "注册账号",
+        "requestBody": {
+          "description": "注册信息",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AccountInfoDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AccountInfoDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AccountInfoDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Account/Login": {
+      "get": {
+        "tags": [
+          "Account"
+        ],
+        "summary": "登录",
+        "parameters": [
+          {
+            "name": "account",
+            "in": "query",
+            "description": "账号",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "pwd",
+            "in": "query",
+            "description": "密码",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AccountInfoDTO": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "账号名称",
+            "nullable": true
+          },
+          "account": {
+            "type": "string",
+            "description": "登录账号",
+            "nullable": true
+          },
+          "pwd": {
+            "type": "string",
+            "description": "密码",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "登录账号的数据传输对象(用来接收注册的信息)"
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Account",
+      "description": "账号控制器"
+    }
+  ]
+}
