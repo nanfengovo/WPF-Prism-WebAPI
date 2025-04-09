@@ -41,7 +41,7 @@ namespace DailyAPP.WPF.ViewModels
 
         #region 待办事项数据
         /// <summary>
-        /// 统计面板数据
+        /// 待办事项数据
         /// </summary>
         private List<WaitInfoDTO> _WaitlList;
 
