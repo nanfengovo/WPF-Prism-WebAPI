@@ -38,7 +38,7 @@
                         Margin="10"
                         Background="{Binding BackColor}"
                         CornerRadius="5">
-                        <!--触发器-->
+                        <!--  触发器  -->
                         <Border.Style>
                             <Style TargetType="Border">
 
@@ -46,9 +46,10 @@
                                     <Trigger Property="IsMouseOver" Value="True">
                                         <Setter Property="Effect">
                                             <Setter.Value>
-                                                <DropShadowEffect Color="#dddddd" ShadowDepth="1" BlurRadius="10" >
-
-                                                </DropShadowEffect>
+                                                <DropShadowEffect
+                                                    BlurRadius="10"
+                                                    ShadowDepth="1"
+                                                    Color="#dddddd" />
                                             </Setter.Value>
                                         </Setter>
                                     </Trigger>
@@ -109,7 +110,7 @@
             <!--  第一列  -->
             <Border
                 Margin="10,0"
-                Background="#bebebe"
+                Background="#fffff5"
                 CornerRadius="5"
                 Opacity="0.5">
                 <DockPanel>
@@ -129,7 +130,29 @@
                         </Button>
                     </DockPanel>
 
-                    <ListBox />
+                    <ListBox
+                        HorizontalContentAlignment="Stretch"
+                        ItemsSource="{Binding WaitlList}"
+                        ScrollViewer.VerticalScrollBarVisibility="Visible">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <DockPanel MaxHeight="80" LastChildFill="False">
+                                    <ToggleButton DockPanel.Dock="Right" />
+                                    <StackPanel>
+                                        <TextBlock
+                                            FontSize="16"
+                                            FontWeight="Bold"
+                                            Text="{Binding Title}" />
+                                        <TextBlock
+                                            Margin="0,5"
+                                            Opacity="0.5"
+                                            Text="{Binding Content}" />
+                                    </StackPanel>
+
+                                </DockPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
                 </DockPanel>
             </Border>
 
@@ -137,7 +160,7 @@
             <Border
                 Grid.Column="1"
                 Margin="10,0"
-                Background="#bebebe"
+                Background="#fffff5"
                 CornerRadius="5"
                 Opacity="0.5">
                 <DockPanel>

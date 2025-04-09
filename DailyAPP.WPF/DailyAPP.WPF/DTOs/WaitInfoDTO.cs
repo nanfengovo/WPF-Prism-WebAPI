@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace DailyAPP.WPF.DTOs
 {
+    /// <summary>
+    /// 待办事项的DTO
+    /// </summary>
     class WaitInfoDTO
     {
         /// <summary>
