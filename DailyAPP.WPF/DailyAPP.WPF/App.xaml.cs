@@ -51,9 +51,9 @@ namespace DailyAPP.WPF
         //protected override void OnInitialized()
         //{
         //    var dialog = Container.Resolve<IDialogService>();
-        //    dialog.ShowDialog("LoginUC",callback =>
-        //    { 
-        //        if(callback.Result != ButtonResult.OK) 
+        //    dialog.ShowDialog("LoginUC", callback =>
+        //    {
+        //        if (callback.Result != ButtonResult.OK)
         //        {
         //            Environment.Exit(0);
         //            return;

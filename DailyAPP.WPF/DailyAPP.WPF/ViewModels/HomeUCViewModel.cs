@@ -18,6 +18,8 @@ namespace DailyAPP.WPF.ViewModels
             CreateStatPanelList();
             //创建待办事项数据
             CreateWaitList();
+            //创建备忘录数据
+            CreateMemorandumList();
         }
         #region 统计面板数据
         /// <summary>
@@ -52,6 +54,24 @@ namespace DailyAPP.WPF.ViewModels
                 RaisePropertyChanged();
             }
         }
+        #endregion
+
+        #region 备忘录数据
+        /// <summary>
+        /// 备忘录数据
+        /// </summary>
+        private List<MemorandumInfoDTO> _MemorandumList;
+
+        public List<MemorandumInfoDTO> MemorandumList
+        {
+            get { return _MemorandumList; }
+            set 
+            {
+                _MemorandumList = value;
+                RaisePropertyChanged();
+            }
+        }
+
         #endregion
 
         #region 模拟统计面板数据
@@ -107,6 +127,18 @@ namespace DailyAPP.WPF.ViewModels
             WaitlList = new List<WaitInfoDTO>();
             WaitlList.Add(new WaitInfoDTO() { Title = "测试录屏",Content = "仔细给客户演示测试"});
             WaitlList.Add(new WaitInfoDTO() { Title = "上传录屏",Content = "上传录屏时，仔细检查是否有录屏效果"});
+        }
+        #endregion
+
+        #region 模拟备忘录数据
+        /// <summary>
+        /// 创建备忘录数据
+        /// </summary>
+        private void CreateMemorandumList()
+        {
+            MemorandumList = new List<MemorandumInfoDTO>();
+            MemorandumList.Add(new MemorandumInfoDTO() { Title = "备忘录1", Content = "仔细给客户演示测试" });
+            MemorandumList.Add(new MemorandumInfoDTO() { Title = "备忘录2", Content = "上传录屏时，仔细检查是否有录屏效果" });
         }
         #endregion
     }
