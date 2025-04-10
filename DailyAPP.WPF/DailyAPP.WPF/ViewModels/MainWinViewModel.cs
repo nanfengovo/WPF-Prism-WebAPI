@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 
 namespace DailyAPP.WPF.ViewModels
 {
@@ -45,6 +46,8 @@ namespace DailyAPP.WPF.ViewModels
             //前进
             GoForwardCmm = new DelegateCommand(GoForward);
 
+            
+
         }
         #region 区域和导航实现导航
         private readonly IRegionManager regionManager;
@@ -57,7 +60,7 @@ namespace DailyAPP.WPF.ViewModels
         /// <param name="menu"></param>
         private void Navigate(LeftMenuInfo menu)
         {
-            if(menu == null && string.IsNullOrEmpty(menu.ViewName))
+            if(menu == null && string.IsNullOrEmpty(menu?.ViewName))
             {
                 return;
             }
@@ -106,7 +109,19 @@ namespace DailyAPP.WPF.ViewModels
         }
         #endregion
 
-
+        #region 设置默认是首页
+        /// <summary>
+        /// 设置默认是首页
+        /// </summary>
+        public void SwtDefault()
+        {
+            //导航 区域
+            regionManager.Regions["MainViewRegion"].RequestNavigate("HomeUC", callback =>
+            {
+                journal = callback.Context.NavigationService.Journal;//获取导航历史记录
+            });
+        }
+        #endregion
 
 
     }

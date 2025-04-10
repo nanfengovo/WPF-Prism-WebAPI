@@ -19,6 +19,7 @@ namespace DailyAPP.WPF.ViewModels
 
         public PersonalUCViewModel()
         {
+            IsDarkTheme = true;
             ChangeHueCommand = new DelegateCommand<object>(ChangeHue);
         }
 

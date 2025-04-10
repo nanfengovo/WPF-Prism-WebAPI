@@ -35,10 +35,10 @@
                         </Image>
                     </StackPanel>
                     <!--菜单列表-->
-                    <ListBox ItemsSource="{Binding LeftMenulist}" ItemContainerStyle="{StaticResource LeftMenuStyle}" x:Name="IbMenu" SelectionChanged="IbMenu_SelectionChanged" >
+                    <ListBox ItemsSource="{Binding LeftMenulist}" ItemContainerStyle="{StaticResource LeftMenuStyle}" SelectionChanged="IbMenu_SelectionChanged" >
                         <i:Interaction.Triggers>
                             <i:EventTrigger EventName="SelectionChanged">
-                                <i:InvokeCommandAction Command="{Binding NavigateCmm}" CommandParameter="{Binding ElementName=IbMenu,Path=SelectedItem}">
+                                <i:InvokeCommandAction Command="{Binding NavigateCmm}" CommandParameter="{Binding SelectedItem,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=ListBox}}">
                                 </i:InvokeCommandAction>
                             </i:EventTrigger>
                         </i:Interaction.Triggers>

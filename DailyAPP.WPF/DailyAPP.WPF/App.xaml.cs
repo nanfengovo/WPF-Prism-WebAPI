@@ -61,19 +61,22 @@ namespace DailyAPP.WPF
         /// <summary>
         /// 初始化
         /// </summary>
-        //protected override void OnInitialized()
-        //{
-        //    var dialog = Container.Resolve<IDialogService>();
-        //    dialog.ShowDialog("LoginUC", callback =>
-        //    {
-        //        if (callback.Result != ButtonResult.OK)
-        //        {
-        //            Environment.Exit(0);
-        //            return;
-        //        }
-        //        base.OnInitialized();
-        //    });
-        //}
+        protected override void OnInitialized()
+        {
+            var dialog = Container.Resolve<IDialogService>();
+            dialog.ShowDialog("LoginUC", callback =>
+            {
+                if (callback.Result != ButtonResult.OK)
+                {
+                    Environment.Exit(0);
+                    return;
+                }
+                //主界面的上下文
+                var mainVM  = App.Current.MainWindow.DataContext as MainWinViewModel;
+                mainVM.SwtDefault();
+                base.OnInitialized();
+            });
+        }
     }
 
 }
