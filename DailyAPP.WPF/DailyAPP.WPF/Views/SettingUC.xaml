@@ -65,6 +65,8 @@
             <ContentControl Grid.Column="1" Margin="10,0" prism:RegionManager.RegionName="SettingRegion">
                 
             </ContentControl>
+            
+            
         </Grid>
 
     </Grid>
