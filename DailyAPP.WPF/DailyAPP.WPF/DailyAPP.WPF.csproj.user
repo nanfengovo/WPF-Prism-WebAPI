@@ -2,6 +2,9 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="Views\AboutUsUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\HomeUC.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -14,7 +17,13 @@
     <Compile Update="Views\MemoUC.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\PersonalUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\SettingUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\SysSetUC.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\WaitUC.xaml.cs">

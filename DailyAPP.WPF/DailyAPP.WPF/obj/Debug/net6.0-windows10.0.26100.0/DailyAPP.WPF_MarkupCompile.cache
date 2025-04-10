@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF\DailyAPP.WPF\App.xaml
-6-1434607204
+9107630572
 
-26-1899501496
+301372848633
 2051903688159
-Views\HomeUC.xaml;Views\LoginUC.xaml;Views\MainWin.xaml;Views\MemoUC.xaml;Views\SettingUC.xaml;Views\WaitUC.xaml;
+Views\AboutUsUC.xaml;Views\HomeUC.xaml;Views\LoginUC.xaml;Views\MainWin.xaml;Views\MemoUC.xaml;Views\PersonalUC.xaml;Views\SettingUC.xaml;Views\SysSetUC.xaml;Views\WaitUC.xaml;
 
 False
 

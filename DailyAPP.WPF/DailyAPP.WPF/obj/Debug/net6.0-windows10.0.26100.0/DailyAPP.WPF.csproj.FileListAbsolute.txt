@@ -44,3 +44,9 @@ E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF\DailyAPP.WPF\obj\Debug\net
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\Views\SettingUC.baml
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\Views\WaitUC.baml
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\DailyAPP.WPF.sourcelink.json
+E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\Views\AboutUsUC.g.cs
+E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\Views\PersonalUC.g.cs
+E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\Views\SysSetUC.g.cs
+E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\Views\AboutUsUC.baml
+E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\Views\PersonalUC.baml
+E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\Views\SysSetUC.baml

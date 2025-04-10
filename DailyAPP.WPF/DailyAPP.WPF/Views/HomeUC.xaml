@@ -142,9 +142,11 @@
                                         <TextBlock
                                             FontSize="16"
                                             FontWeight="Bold"
+                                            Foreground="Black"
                                             Text="{Binding Title}" />
                                         <TextBlock
                                             Margin="0,5"
+                                            Foreground="Black"
                                             Opacity="0.5"
                                             Text="{Binding Content}" />
                                     </StackPanel>
@@ -192,9 +194,11 @@
                                         <TextBlock
                                             FontSize="16"
                                             FontWeight="Bold"
+                                            Foreground="Black"
                                             Text="{Binding Title}" />
                                         <TextBlock
                                             Margin="0,5"
+                                            Foreground="Black"
                                             Opacity="0.5"
                                             Text="{Binding Content}" />
                                     </StackPanel>
