@@ -1,5 +1,7 @@
 ﻿using DailyAPP.WPF.DTOs;
+using DailyAPP.WPF.HttpClients;
 using DailyAPP.WPF.Models;
+using Newtonsoft.Json;
 using Prism.Mvvm;
 using Prism.Regions;
 using System;
@@ -12,9 +14,10 @@ namespace DailyAPP.WPF.ViewModels
 {
     class HomeUCViewModel:BindableBase,INavigationAware
     {
-
-        public HomeUCViewModel()
+        private readonly HttpRestClient HttpClient;
+        public HomeUCViewModel(HttpRestClient _HttpClient)
         {
+            HttpClient = _HttpClient;
             //创建统计面板数据
             CreateStatPanelList();
             //创建待办事项数据
@@ -179,7 +182,10 @@ namespace DailyAPP.WPF.ViewModels
                 DateTime now = DateTime.Now;
                 string[] week = new string[] { "星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六" };
                 string loginName = navigationContext.Parameters.GetValue<string>("loginName");
-                LoginInfo = $"你好！{loginName},今天是{now.ToString("yyyy-MM-dd")} {week[(int)now.DayOfWeek]}";
+                LoginInfo = $"你好！{loginName} ,今天是{now.ToString("yyyy-MM-dd")} {week[(int)now.DayOfWeek]}";
+
+                //统计待办事项
+                CallStatWait();
             }
         }
 
@@ -191,6 +197,39 @@ namespace DailyAPP.WPF.ViewModels
         public void OnNavigatedFrom(NavigationContext navigationContext)
         {
 
+        }
+        #endregion
+
+        #region 待办事项统计
+        private StatWaitDTO StatWaitDTO { get; set; } = new StatWaitDTO();
+
+        /// <summary>
+        /// 调用API获取统计数据
+        /// </summary>
+        private void CallStatWait()
+        {
+            ApiRequest apiRequest = new ApiRequest();
+            apiRequest.Method = RestSharp.Method.GET;
+            apiRequest.Route = "Wait/StatWait";
+
+            var response = HttpClient.Execute(apiRequest);
+
+            if (response.ResultCode == 1)
+            {
+                //将请求返回的JSON数据反序列化成对象
+                StatWaitDTO = JsonConvert.DeserializeObject<StatWaitDTO>(response.ResultData.ToString());
+                RefreshWaitStat();
+            }
+        }
+
+        /// <summary>
+        /// 刷新统计数据
+        /// </summary>
+        private void RefreshWaitStat()
+        {
+            StatPanelList[0].Result = StatWaitDTO.TotalCount.ToString();
+            StatPanelList[1].Result = StatWaitDTO.FinnishCount.ToString();
+            StatPanelList[2].Result = StatWaitDTO.FinishPercent;
         }
         #endregion
 

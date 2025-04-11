@@ -66,6 +66,22 @@
             <param name="pwd">密码</param>
             <returns></returns>
         </member>
+        <member name="T:DailyApp.API.Controllers.WaitController">
+            <summary>
+            待办事项控制器
+            </summary>
+        </member>
+        <member name="F:DailyApp.API.Controllers.WaitController.db">
+            <summary>
+            数据库上下文
+            </summary>
+        </member>
+        <member name="M:DailyApp.API.Controllers.WaitController.StatWait">
+            <summary>
+            统计待办数据
+            </summary>
+            <returns>1：统计成功 -99：统计异常</returns>
+        </member>
         <member name="T:DailyApp.API.DataModel.AccountInfo">
             <summary>
             登录账号的数据模型
@@ -107,6 +123,36 @@
             账号表  virtual=--懒汉加载
             </summary>
         </member>
+        <member name="P:DailyApp.API.DataModel.DailyDbContext.WaitInfos">
+            <summary>
+            待办事项表  virtual=--懒汉加载
+            </summary>
+        </member>
+        <member name="P:DailyApp.API.DataModel.WaitInfo.WaitId">
+            <summary>
+            待办事项ID
+            </summary>
+        </member>
+        <member name="P:DailyApp.API.DataModel.WaitInfo.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:DailyApp.API.DataModel.WaitInfo.Content">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="P:DailyApp.API.DataModel.WaitInfo.Status">
+            <summary>
+            状态  0-待办  1 已完成
+            </summary>
+        </member>
+        <member name="P:DailyApp.API.DataModel.WaitInfo.CreateTime">
+            <summary>
+            创建时间（默认是当前的时间）
+            </summary>
+        </member>
         <member name="T:DailyApp.API.DTOs.AccountInfoDTO">
             <summary>
             登录账号的数据传输对象(用来接收注册的信息)
@@ -125,6 +171,26 @@
         <member name="P:DailyApp.API.DTOs.AccountInfoDTO.Pwd">
             <summary>
             密码
+            </summary>
+        </member>
+        <member name="T:DailyApp.API.DTOs.StatWaitDTO">
+            <summary>
+            统计待办事项的DTO
+            </summary>
+        </member>
+        <member name="P:DailyApp.API.DTOs.StatWaitDTO.TotalCount">
+            <summary>
+            待办事项的总数
+            </summary>
+        </member>
+        <member name="P:DailyApp.API.DTOs.StatWaitDTO.FinnishCount">
+            <summary>
+            已完成事项的数量
+            </summary>
+        </member>
+        <member name="P:DailyApp.API.DTOs.StatWaitDTO.FinishPercent">
+            <summary>
+            完成百分比
             </summary>
         </member>
     </members>

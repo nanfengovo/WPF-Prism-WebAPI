@@ -73,3 +73,4 @@ E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyApp.API\DailyApp.API\obj\Debug\net
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyApp.API\DailyApp.API\bin\Debug\net6.0\DailyApp.API.xml
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyApp.API\DailyApp.API\obj\Debug\net6.0\DailyApp.API.xml
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyApp.API\DailyApp.API\bin\Debug\net6.0\AutoMapper.dll
+E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyApp.API\DailyApp.API\obj\Debug\net6.0\DailyApp.API.sourcelink.json

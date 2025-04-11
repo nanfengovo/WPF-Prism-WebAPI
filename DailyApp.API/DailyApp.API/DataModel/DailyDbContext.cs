@@ -23,6 +23,10 @@ namespace DailyApp.API.DataModel
         /// </summary>
         public virtual DbSet<AccountInfo> AccountInfos { get; set; }
 
+        /// <summary>
+        /// 待办事项表  virtual=--懒汉加载
+        /// </summary>
+        public virtual DbSet<WaitInfo> WaitInfos { get; set; }
 
 
     }

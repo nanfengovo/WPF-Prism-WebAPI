@@ -72,17 +72,17 @@ namespace DailyAPP.WPF
                     return;
                 }
                 //主界面的上下文
-                var mainVM  = App.Current.MainWindow.DataContext as MainWinViewModel;
-                if(mainVM != null)
+                var mainVM = App.Current.MainWindow.DataContext as MainWinViewModel;
+                if (mainVM != null)
                 {
-                    if(callback.Parameters.ContainsKey("LoginName"))
+                    if (callback.Parameters.ContainsKey("LoginName"))
                     {
                         string name = callback.Parameters.GetValue<string>("LoginName");
                         mainVM.SwtDefault(name);
                     }
-                   
+
                 }
-                
+
                 base.OnInitialized();
             });
         }

@@ -68,6 +68,19 @@
           }
         }
       }
+    },
+    "/api/Wait/StatWait": {
+      "get": {
+        "tags": [
+          "Wait"
+        ],
+        "summary": "统计待办数据",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -100,6 +113,10 @@
     {
       "name": "Account",
       "description": "账号控制器"
+    },
+    {
+      "name": "Wait",
+      "description": "待办事项控制器"
     }
   ]
 }

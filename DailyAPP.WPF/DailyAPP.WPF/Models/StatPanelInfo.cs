@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Prism.Mvvm;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +10,7 @@ namespace DailyAPP.WPF.Models
     /// <summary>
     /// 首页统计面板信息
     /// </summary>
-    class StatPanelInfo
+    class StatPanelInfo:BindableBase
     {
         /// <summary>
         /// 统计面板图标
@@ -24,7 +25,19 @@ namespace DailyAPP.WPF.Models
         /// <summary>
         /// 统计结果
         /// </summary>
-        public string Result { get; set; }
+        private string _Result;
+
+        public string Result
+        {
+            get { return _Result; }
+            set 
+            {
+                _Result = value;
+                RaisePropertyChanged();
+            }
+        }
+
+
 
         /// <summary>
         /// 背景颜色
