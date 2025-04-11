@@ -73,7 +73,16 @@ namespace DailyAPP.WPF
                 }
                 //主界面的上下文
                 var mainVM  = App.Current.MainWindow.DataContext as MainWinViewModel;
-                mainVM.SwtDefault();
+                if(mainVM != null)
+                {
+                    if(callback.Parameters.ContainsKey("LoginName"))
+                    {
+                        string name = callback.Parameters.GetValue<string>("LoginName");
+                        mainVM.SwtDefault(name);
+                    }
+                   
+                }
+                
                 base.OnInitialized();
             });
         }

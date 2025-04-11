@@ -22,7 +22,7 @@
         <TextBlock
             Margin="15,10"
             FontSize="22"
-            Text="你好，今天是2025年4月8号 星期二" />
+            Text="{Binding LoginInfo}" />
 
         <!--  第二行  -->
         <ItemsControl Grid.Row="1" ItemsSource="{Binding StatPanelList}">

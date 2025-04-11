@@ -2,6 +2,7 @@
 using DailyAPP.WPF.HttpClients;
 using DailyAPP.WPF.MsgEvents;
 using DryIoc;
+using Newtonsoft.Json;
 using Prism.Commands;
 using Prism.Events;
 using Prism.Mvvm;
@@ -204,12 +205,19 @@ namespace DailyAPP.WPF.ViewModels
             apiRequest.Route =$"Account/Login?account={Account}&pwd={Pwd}";
 
             var response = HttpClient.Execute(apiRequest);
+           
 
+
+            //登录成功
             if(response.ResultCode  == 1)
             {
                 if(RequestClose != null)
                 {
-                    RequestClose(new DialogResult(ButtonResult.OK));
+                    //将json格式反序列化成对象
+                    AccountInfoDTO accountInfoDTO = JsonConvert.DeserializeObject<AccountInfoDTO>(response.ResultData.ToString());
+                    DialogParameters paras = new DialogParameters();
+                    paras.Add("LoginName" , accountInfoDTO.Name);
+                    RequestClose(new DialogResult(ButtonResult.OK,paras));
                 }
             }
             else

@@ -113,13 +113,15 @@ namespace DailyAPP.WPF.ViewModels
         /// <summary>
         /// 设置默认是首页
         /// </summary>
-        public void SwtDefault()
+        public void SwtDefault(string loginName)
         {
+            NavigationParameters paras = new NavigationParameters();
+            paras.Add("loginName", loginName);
             //导航 区域
             regionManager.Regions["MainViewRegion"].RequestNavigate("HomeUC", callback =>
             {
                 journal = callback.Context.NavigationService.Journal;//获取导航历史记录
-            });
+            },paras);
         }
         #endregion
 
