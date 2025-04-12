@@ -39,6 +39,10 @@
                         Margin="10"
                         Background="{Binding BackColor}"
                         CornerRadius="5">
+                        <Border.InputBindings>
+                            <MouseBinding MouseAction="LeftClick" Command="{Binding DataContext.NavigateCmm,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=ItemsControl}}" CommandParameter="{Binding}">
+                            </MouseBinding>
+                        </Border.InputBindings>
                         <!--  触发器  -->
                         <Border.Style>
                             <Style TargetType="Border">

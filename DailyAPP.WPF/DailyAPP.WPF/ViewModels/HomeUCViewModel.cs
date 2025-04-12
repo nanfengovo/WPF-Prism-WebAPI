@@ -27,7 +27,7 @@ namespace DailyAPP.WPF.ViewModels
         //自定义的对话服务
         private readonly DialogHostService DialogHostService;
 
-        public HomeUCViewModel(HttpRestClient _HttpClient, DialogHostService _DialogHostService)
+        public HomeUCViewModel(HttpRestClient _HttpClient, DialogHostService _DialogHostService, IRegionManager _RegionManager)
         {
             HttpClient = _HttpClient;
             DialogHostService = _DialogHostService;
@@ -48,7 +48,10 @@ namespace DailyAPP.WPF.ViewModels
             //打开修改待办事项的对话框
             ShowEditWaitDialogCmm = new DelegateCommand<WaitInfoDTO>(ShowEditWaitDialog);
 
+            //统计面板导航
+            NavigateCmm = new DelegateCommand<StatPanelInfo>(Navigate);
 
+            RegionManager = _RegionManager;
         }
         #region 统计面板数据
         /// <summary>
@@ -383,6 +386,32 @@ namespace DailyAPP.WPF.ViewModels
                 }
 
             }
+        }
+        #endregion
+
+
+        #region 统计面板导航
+        public DelegateCommand<StatPanelInfo> NavigateCmm { get; set; }
+
+        private readonly IRegionManager RegionManager;
+
+        /// <summary>
+        /// 统计面板导航
+        /// </summary>
+        /// <param name="statPanelInfo"></param>
+        private void Navigate(StatPanelInfo statPanelInfo)
+        {
+            if(!string.IsNullOrEmpty(statPanelInfo.ViewName))
+            {
+                if(statPanelInfo.ViewName == "已完成")
+                {
+                    NavigationParameters paras = new NavigationParameters();
+                    paras.Add("SelectedIndex", 2);
+                    RegionManager.Regions["MainViewRegion"].RequestNavigate(statPanelInfo.ViewName, paras);
+                }
+                RegionManager.Regions["MainViewRegion"].RequestNavigate(statPanelInfo.ViewName);
+            }
+            
         }
         #endregion
     }

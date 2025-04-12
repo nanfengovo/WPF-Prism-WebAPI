@@ -3,6 +3,7 @@ using DailyAPP.WPF.HttpClients;
 using Newtonsoft.Json;
 using Prism.Commands;
 using Prism.Mvvm;
+using Prism.Regions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +16,7 @@ namespace DailyAPP.WPF.ViewModels
     /// <summary>
     /// 待办事项的视图模型
     /// </summary>
-    class WaitUCViewModel :BindableBase
+    class WaitUCViewModel :BindableBase,INavigationAware
     {
 
         //请求api的客户端
@@ -127,6 +128,28 @@ namespace DailyAPP.WPF.ViewModels
             }
 
 
+        }
+
+        /// <summary>
+        /// 接收
+        /// </summary>
+        /// <param name="navigationContext"></param>
+        public void OnNavigatedTo(NavigationContext navigationContext)
+        {
+            if(navigationContext.Parameters.ContainsKey("SelectedIndex"))
+            {
+                SearchWaitIndex = navigationContext.Parameters.GetValue<int>("SelectedIndex");
+            }
+        }
+
+        public bool IsNavigationTarget(NavigationContext navigationContext)
+        {
+            return true;
+        }
+
+        public void OnNavigatedFrom(NavigationContext navigationContext)
+        {
+            
         }
         #endregion
     }
