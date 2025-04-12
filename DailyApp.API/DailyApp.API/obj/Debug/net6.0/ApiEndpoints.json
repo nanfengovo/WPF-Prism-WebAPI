@@ -71,5 +71,21 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DailyApp.API.Controllers.WaitController",
+    "Method": "UpdateStatus",
+    "RelativePath": "api/Wait/UpdateStatus",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newStatus",
+        "Type": "DailyApp.API.DTOs.WaitDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

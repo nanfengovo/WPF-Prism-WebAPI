@@ -127,6 +127,39 @@
           }
         }
       }
+    },
+    "/api/Wait/UpdateStatus": {
+      "put": {
+        "tags": [
+          "Wait"
+        ],
+        "summary": "修改待办事项的状态",
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WaitDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WaitDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/WaitDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -156,6 +189,11 @@
       "WaitDTO": {
         "type": "object",
         "properties": {
+          "waitId": {
+            "type": "integer",
+            "description": "待办事项ID",
+            "format": "int32"
+          },
           "title": {
             "type": "string",
             "description": "标题",
@@ -173,7 +211,7 @@
           }
         },
         "additionalProperties": false,
-        "description": "待办事项的DTO(接收添加待办事项的数据)"
+        "description": "待办事项的DTO(接收添加待办事项的数据 查询/显示数据)"
       }
     }
   },

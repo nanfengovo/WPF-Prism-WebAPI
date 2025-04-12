@@ -134,11 +134,11 @@
                     <ListBox
                         HorizontalContentAlignment="Stretch"
                         ItemsSource="{Binding WaitlList}"
-                        ScrollViewer.VerticalScrollBarVisibility="Visible">
+                        ScrollViewer.VerticalScrollBarVisibility="Hidden">
                         <ListBox.ItemTemplate>
                             <DataTemplate>
                                 <DockPanel MaxHeight="80" LastChildFill="False">
-                                    <ToggleButton DockPanel.Dock="Right" />
+                                    <ToggleButton DockPanel.Dock="Right" IsChecked="{Binding Status}" Command="{Binding DataContext.ChangeWaitStatusCmm,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=ListBox}}" CommandParameter="{Binding}" />
                                     <StackPanel>
                                         <TextBlock
                                             FontSize="16"
@@ -186,7 +186,7 @@
                     <ListBox
                         HorizontalContentAlignment="Stretch"
                         ItemsSource="{Binding MemorandumList}"
-                        ScrollViewer.VerticalScrollBarVisibility="Visible">
+                        ScrollViewer.VerticalScrollBarVisibility="Hidden">
                         <ListBox.ItemTemplate>
                             <DataTemplate>
                                 <DockPanel>

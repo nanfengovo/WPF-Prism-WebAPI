@@ -135,5 +135,43 @@ namespace DailyApp.API.Controllers
             }
             return Ok(response);
         }
+
+        /// <summary>
+        /// 修改待办事项的状态
+        /// </summary>
+        /// <param name="newStatus"></param>
+        /// <returns>1：修改成功，-99：异常，-1：状态id错误</returns>
+        [HttpPut]
+        public IActionResult UpdateStatus(WaitDTO  newStatus)
+        {
+            ApiReponse res = new ApiReponse();
+            try
+            {
+                var dbInfo = db.WaitInfos.Find(newStatus.WaitId);
+                if(dbInfo != null)
+                {
+                    dbInfo.Status = newStatus.Status;
+                    var result = db.SaveChanges();
+                    if(result == 1)
+                    {
+                        res.ResultCode = 1;
+                        res.Msg = newStatus.Status == 0 ? "状态成功设置为待办":"状态更新设置为已完成";
+                    }
+                    
+                }
+                else
+                {
+                    res.ResultCode = -1;
+                    res.Msg = "状态id错误！";
+                }
+            }
+            catch (Exception)
+            {
+
+                res.ResultCode = -99;
+                res.Msg = "服务器端内部错误！请查看后端日志！";
+            }
+            return Ok(res);
+        }
     }
 }

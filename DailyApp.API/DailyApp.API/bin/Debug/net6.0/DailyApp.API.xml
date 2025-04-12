@@ -100,6 +100,13 @@
             </summary>
             <returns>1：获取成功；-1：获取失败；99：异常</returns>
         </member>
+        <member name="M:DailyApp.API.Controllers.WaitController.UpdateStatus(DailyApp.API.DTOs.WaitDTO)">
+            <summary>
+            修改待办事项的状态
+            </summary>
+            <param name="newStatus"></param>
+            <returns>1：修改成功，-99：异常，-1：状态id错误</returns>
+        </member>
         <member name="T:DailyApp.API.DataModel.AccountInfo">
             <summary>
             登录账号的数据模型
@@ -213,7 +220,12 @@
         </member>
         <member name="T:DailyApp.API.DTOs.WaitDTO">
             <summary>
-            待办事项的DTO(接收添加待办事项的数据)
+            待办事项的DTO(接收添加待办事项的数据 查询/显示数据)
+            </summary>
+        </member>
+        <member name="P:DailyApp.API.DTOs.WaitDTO.WaitId">
+            <summary>
+            待办事项ID
             </summary>
         </member>
         <member name="P:DailyApp.API.DTOs.WaitDTO.Title">
