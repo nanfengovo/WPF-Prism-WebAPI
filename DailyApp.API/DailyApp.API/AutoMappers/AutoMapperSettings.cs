@@ -11,7 +11,12 @@ namespace DailyApp.API.AutoMappers
     {
         public AutoMapperSettings()
         {
+            //登录的用户信息
             CreateMap<AccountInfoDTO,AccountInfo>().ReverseMap();
+
+            //待办事项信息
+            CreateMap<WaitDTO, WaitInfo>().ReverseMap();
+
         }
     }
 }

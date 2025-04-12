@@ -76,11 +76,23 @@
             数据库上下文
             </summary>
         </member>
+        <member name="F:DailyApp.API.Controllers.WaitController.mapper">
+            <summary>
+            AutoMapper
+            </summary>
+        </member>
         <member name="M:DailyApp.API.Controllers.WaitController.StatWait">
             <summary>
             统计待办数据
             </summary>
             <returns>1：统计成功 -99：统计异常</returns>
+        </member>
+        <member name="M:DailyApp.API.Controllers.WaitController.AddWait(DailyApp.API.DTOs.WaitDTO)">
+            <summary>
+            添加待办事项
+            </summary>
+            <param name="waitDTO">待办事项信息</param>
+            <returns>1：添加成功；-1：添加失败； -99：异常</returns>
         </member>
         <member name="T:DailyApp.API.DataModel.AccountInfo">
             <summary>
@@ -191,6 +203,26 @@
         <member name="P:DailyApp.API.DTOs.StatWaitDTO.FinishPercent">
             <summary>
             完成百分比
+            </summary>
+        </member>
+        <member name="T:DailyApp.API.DTOs.WaitDTO">
+            <summary>
+            待办事项的DTO(接收添加待办事项的数据)
+            </summary>
+        </member>
+        <member name="P:DailyApp.API.DTOs.WaitDTO.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:DailyApp.API.DTOs.WaitDTO.Content">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="P:DailyApp.API.DTOs.WaitDTO.Status">
+            <summary>
+            状态
             </summary>
         </member>
     </members>

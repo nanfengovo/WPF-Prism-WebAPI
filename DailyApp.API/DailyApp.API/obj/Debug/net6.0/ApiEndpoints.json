@@ -38,6 +38,22 @@
   },
   {
     "ContainingType": "DailyApp.API.Controllers.WaitController",
+    "Method": "AddWait",
+    "RelativePath": "api/Wait/AddWait",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "waitDTO",
+        "Type": "DailyApp.API.DTOs.WaitDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DailyApp.API.Controllers.WaitController",
     "Method": "StatWait",
     "RelativePath": "api/Wait/StatWait",
     "HttpMethod": "GET",

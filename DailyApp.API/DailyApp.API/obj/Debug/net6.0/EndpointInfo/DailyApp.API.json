@@ -81,6 +81,39 @@
           }
         }
       }
+    },
+    "/api/Wait/AddWait": {
+      "post": {
+        "tags": [
+          "Wait"
+        ],
+        "summary": "添加待办事项",
+        "requestBody": {
+          "description": "待办事项信息",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WaitDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WaitDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/WaitDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -106,6 +139,28 @@
         },
         "additionalProperties": false,
         "description": "登录账号的数据传输对象(用来接收注册的信息)"
+      },
+      "WaitDTO": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "标题",
+            "nullable": true
+          },
+          "content": {
+            "type": "string",
+            "description": "内容",
+            "nullable": true
+          },
+          "status": {
+            "type": "integer",
+            "description": "状态",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false,
+        "description": "待办事项的DTO(接收添加待办事项的数据)"
       }
     }
   },

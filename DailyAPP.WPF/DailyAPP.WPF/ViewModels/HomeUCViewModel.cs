@@ -1,23 +1,37 @@
 ﻿using DailyAPP.WPF.DTOs;
 using DailyAPP.WPF.HttpClients;
 using DailyAPP.WPF.Models;
+using DailyAPP.WPF.Service;
 using Newtonsoft.Json;
+using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Regions;
+using Prism.Services.Dialogs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace DailyAPP.WPF.ViewModels
 {
     class HomeUCViewModel:BindableBase,INavigationAware
     {
+        //请求api的客户端
         private readonly HttpRestClient HttpClient;
-        public HomeUCViewModel(HttpRestClient _HttpClient)
+
+        //对话服务
+        //private readonly IDialogService DialogService;
+
+        //自定义的对话服务
+        private readonly DialogHostService DialogHostService;
+
+        public HomeUCViewModel(HttpRestClient _HttpClient, DialogHostService _DialogHostService)
         {
             HttpClient = _HttpClient;
+            DialogHostService = _DialogHostService;
+            //DialogService = _DialogService;
             //创建统计面板数据
             CreateStatPanelList();
             //创建待办事项数据
@@ -25,7 +39,11 @@ namespace DailyAPP.WPF.ViewModels
             //创建备忘录数据
             CreateMemorandumList();
 
-            
+            //打开待办事项的命令
+            ShowAddWaitDialogCmm = new DelegateCommand(ShowAddWaitDialog);
+
+
+
         }
         #region 统计面板数据
         /// <summary>
@@ -231,6 +249,49 @@ namespace DailyAPP.WPF.ViewModels
             StatPanelList[1].Result = StatWaitDTO.FinnishCount.ToString();
             StatPanelList[2].Result = StatWaitDTO.FinishPercent;
         }
+        #endregion
+
+        #region 添加待办事项处理
+
+        public DelegateCommand ShowAddWaitDialogCmm { get;set; }
+
+        /// <summary>
+        /// 打开添加待办事项的对话框
+        /// </summary>
+        private async void ShowAddWaitDialog()
+        {
+            var result = await DialogHostService.ShowDialog("AddWaitUC",null);
+            
+            if(result.Result == ButtonResult.OK)
+            {
+                //接收数据
+                if(result.Parameters.ContainsKey("WaitInfoDTO"))
+                {
+                    var addMoel = result.Parameters.GetValue<WaitInfoDTO>("WaitInfoDTO");
+
+                    //调用api实现添加事项
+                    ApiRequest apiRequest = new ApiRequest();
+                    apiRequest.Method = RestSharp.Method.POST;
+                    apiRequest.Route = "Wait/AddWait";
+                    apiRequest.Parameters = addMoel;
+                    ApiReponse reponse = HttpClient.Execute(apiRequest);
+                    //成功
+                    if (reponse.ResultCode == 1)
+                    {
+                        MessageBox.Show(reponse.Msg);
+                        //刷新统计数据
+                        CallStatWait();
+                        
+                    }
+                    else
+                    {
+                        MessageBox.Show(reponse.Msg);
+                    }
+                }
+                
+            }
+        }
+
         #endregion
 
 
