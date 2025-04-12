@@ -63,6 +63,9 @@ namespace DailyAPP.WPF
             //添加待办事项
             containerRegistry.RegisterForNavigation<AddWaitUC, AddWaitUCViewModel>();
 
+            //编辑待办事项
+            containerRegistry.RegisterForNavigation<EditWaitUC, EditWaitUCViewModel>();
+
             //注入自定义的对话框服务
             containerRegistry.RegisterDialog<DialogHostService>();
 

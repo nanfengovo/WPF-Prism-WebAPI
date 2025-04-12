@@ -52,3 +52,5 @@ E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF\DailyAPP.WPF\obj\Debug\net
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\Views\SysSetUC.baml
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\Views\Dialogs\AddWaitUC.g.cs
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\Views\Dialogs\AddWaitUC.baml
+E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\Views\Dialogs\EditWaitUC.g.cs
+E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\Views\Dialogs\EditWaitUC.baml

@@ -45,6 +45,8 @@ namespace DailyAPP.WPF.ViewModels
             //修改待办状态的命令
             ChangeWaitStatusCmm = new DelegateCommand<WaitInfoDTO>(ChangeWaitStatus);
 
+            //打开修改待办事项的对话框
+            ShowEditWaitDialogCmm = new DelegateCommand<WaitInfoDTO>(ShowEditWaitDialog);
 
 
         }
@@ -336,6 +338,50 @@ namespace DailyAPP.WPF.ViewModels
             else
             {
                 MessageBox.Show(reponse.Msg);
+            }
+        }
+        #endregion
+
+        #region 编辑待办事项
+        public DelegateCommand<WaitInfoDTO> ShowEditWaitDialogCmm { get; set; }
+
+        private async void ShowEditWaitDialog(WaitInfoDTO waitInfoDTO)
+        {
+            DialogParameters paras = new DialogParameters();
+            paras.Add("OldWaitInfoDTO",waitInfoDTO);
+
+            var result = await DialogHostService.ShowDialog("EditWaitUC", paras);
+
+            if (result.Result == ButtonResult.OK)
+            {
+                //接收数据
+                if (result.Parameters.ContainsKey("WaitInfoDTO"))
+                {
+                    var addMoel = result.Parameters.GetValue<WaitInfoDTO>("WaitInfoDTO");
+
+                    //调用api实现添加事项
+                    ApiRequest apiRequest = new ApiRequest();
+                    apiRequest.Method = RestSharp.Method.PUT;
+                    apiRequest.Route = "Wait/UpdateWait";
+                    apiRequest.Parameters = addMoel;
+                    ApiReponse reponse = HttpClient.Execute(apiRequest);
+                    //成功
+                    if (reponse.ResultCode == 1)
+                    {
+                        MessageBox.Show(reponse.Msg);
+                        //刷新统计数据
+                        CallStatWait();
+                        //刷新待办事项列表
+                        GetWaitingList();
+
+
+                    }
+                    else
+                    {
+                        MessageBox.Show(reponse.Msg);
+                    }
+                }
+
             }
         }
         #endregion

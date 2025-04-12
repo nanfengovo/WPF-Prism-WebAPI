@@ -87,5 +87,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DailyApp.API.Controllers.WaitController",
+    "Method": "UpdateWait",
+    "RelativePath": "api/Wait/UpdateWait",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newWaitDTO",
+        "Type": "DailyApp.API.DTOs.WaitDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

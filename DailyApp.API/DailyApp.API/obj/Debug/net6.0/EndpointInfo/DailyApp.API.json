@@ -160,6 +160,39 @@
           }
         }
       }
+    },
+    "/api/Wait/UpdateWait": {
+      "put": {
+        "tags": [
+          "Wait"
+        ],
+        "summary": "修改",
+        "requestBody": {
+          "description": "修改的新的实体",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WaitDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WaitDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/WaitDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
     }
   },
   "components": {

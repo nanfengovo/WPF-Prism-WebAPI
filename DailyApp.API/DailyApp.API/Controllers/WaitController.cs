@@ -173,5 +173,51 @@ namespace DailyApp.API.Controllers
             }
             return Ok(res);
         }
+
+
+        /// <summary>
+        /// 修改
+        /// </summary>
+        /// <param name="newWaitDTO">修改的新的实体</param>
+        /// <returns>1：修改成功，-99：异常，-1：状态id错误</returns>
+        [HttpPut]
+        public IActionResult UpdateWait(WaitDTO newWaitDTO)
+        {
+            ApiReponse res = new ApiReponse();
+            try
+            {
+                var dbInfo = db.WaitInfos.Find(newWaitDTO.WaitId);
+                if (dbInfo != null)
+                {
+                    dbInfo.Status = newWaitDTO.Status;
+                    dbInfo.Title = newWaitDTO.Title;
+                    dbInfo.Content = newWaitDTO.Content;
+                    var result = db.SaveChanges();
+                    if (result == 1)
+                    {
+                        res.ResultCode = 1;
+                        res.Msg =  "修改成功";
+                    }
+                    else
+                    {
+                        res.ResultCode = 1;
+                        res.Msg = "没有检测到修改";
+                    }
+
+                }
+                else
+                {
+                    res.ResultCode = -1;
+                    res.Msg = "状态id错误！";
+                }
+            }
+            catch (Exception)
+            {
+
+                res.ResultCode = -99;
+                res.Msg = "服务器端内部错误！请查看后端日志！";
+            }
+            return Ok(res);
+        }
     }
 }
