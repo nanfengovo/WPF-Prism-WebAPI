@@ -34,8 +34,8 @@ namespace DailyAPP.WPF.ViewModels
             //DialogService = _DialogService;
             //创建统计面板数据
             CreateStatPanelList();
-            //创建待办事项数据
-            CreateWaitList();
+            //获取待办状态的待办事项的数据
+            GetWaitingList();
             //创建备忘录数据
             CreateMemorandumList();
 
@@ -142,15 +142,28 @@ namespace DailyAPP.WPF.ViewModels
         }
         #endregion
 
-        #region 模拟待办事项数据
+        #region 获取待办状态的待办事项的数据
         /// <summary>
-        /// 创建待办事项数据
+        /// 获取待办状态的待办事项的数据
         /// </summary>
-        private void CreateWaitList()
+        private void GetWaitingList()
         {
             WaitlList = new List<WaitInfoDTO>();
-            WaitlList.Add(new WaitInfoDTO() { Title = "测试录屏",Content = "仔细给客户演示测试"});
-            WaitlList.Add(new WaitInfoDTO() { Title = "上传录屏",Content = "上传录屏时，仔细检查是否有录屏效果"});
+            //WaitlList.Add(new WaitInfoDTO() { Title = "测试录屏",Content = "仔细给客户演示测试"});
+            //WaitlList.Add(new WaitInfoDTO() { Title = "上传录屏",Content = "上传录屏时，仔细检查是否有录屏效果"});
+            ApiRequest apiRequest = new ApiRequest();
+            apiRequest.Method = RestSharp.Method.GET;
+            apiRequest.Route = "Wait/GetWaiting";
+
+            var response = HttpClient.Execute(apiRequest);
+
+            if (response.ResultCode == 1)
+            {
+                //将请求返回的JSON数据反序列化成对象
+                WaitlList = JsonConvert.DeserializeObject<List<WaitInfoDTO>>(response.ResultData.ToString());
+                RefreshWaitStat();
+            }
+            
         }
         #endregion
 

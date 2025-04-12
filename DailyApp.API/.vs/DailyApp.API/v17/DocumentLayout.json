@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -91,19 +91,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WaitDTO.cs",
-              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\DTOs\\WaitDTO.cs",
-              "RelativeDocumentMoniker": "DailyApp.API\\DTOs\\WaitDTO.cs",
-              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\DTOs\\WaitDTO.cs*",
-              "RelativeToolTip": "DailyApp.API\\DTOs\\WaitDTO.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T01:56:36.263Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -150,8 +137,8 @@
               "Title": "AutoMapperSettings.cs",
               "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\AutoMappers\\AutoMapperSettings.cs",
               "RelativeDocumentMoniker": "DailyApp.API\\AutoMappers\\AutoMapperSettings.cs",
-              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\AutoMappers\\AutoMapperSettings.cs*",
-              "RelativeToolTip": "DailyApp.API\\AutoMappers\\AutoMapperSettings.cs*",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\AutoMappers\\AutoMapperSettings.cs",
+              "RelativeToolTip": "DailyApp.API\\AutoMappers\\AutoMapperSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T04:08:53.14Z",
@@ -178,9 +165,22 @@
               "RelativeDocumentMoniker": "DailyApp.API\\Controllers\\WaitController.cs",
               "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\Controllers\\WaitController.cs*",
               "RelativeToolTip": "DailyApp.API\\Controllers\\WaitController.cs*",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAwwFsAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAcwH8AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T15:14:25.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WaitDTO.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\DTOs\\WaitDTO.cs",
+              "RelativeDocumentMoniker": "DailyApp.API\\DTOs\\WaitDTO.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\DTOs\\WaitDTO.cs",
+              "RelativeToolTip": "DailyApp.API\\DTOs\\WaitDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T01:56:36.263Z",
               "EditorCaption": ""
             },
             {

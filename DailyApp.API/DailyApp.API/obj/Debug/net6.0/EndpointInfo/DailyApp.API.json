@@ -114,6 +114,19 @@
           }
         }
       }
+    },
+    "/api/Wait/GetWaiting": {
+      "get": {
+        "tags": [
+          "Wait"
+        ],
+        "summary": "获取待办状态的所有待办事项",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
     }
   },
   "components": {

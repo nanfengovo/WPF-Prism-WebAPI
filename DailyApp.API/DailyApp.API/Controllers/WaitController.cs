@@ -101,5 +101,39 @@ namespace DailyApp.API.Controllers
 
             return Ok(response);
         }
+
+        /// <summary>
+        /// 获取待办状态的所有待办事项
+        /// </summary>
+        /// <returns>1：获取成功；-1：获取失败；99：异常</returns>
+        [HttpGet]
+        public IActionResult GetWaiting()
+        {
+            ApiReponse response = new ApiReponse();
+            try
+            {
+                //获取所有的事项
+                var list = db.WaitInfos.ToList();
+                //获取所有的待办事项
+                var waitlist = list.Where(x => x.Status == 0).ToList();
+                if (waitlist.Count > 0)
+                {
+                    response.ResultCode = 1;
+                    response.Msg = "获取待办事项成功！";
+                    response.ResultData = waitlist;
+                }
+                else
+                {
+                    response.ResultCode = -1;
+                    response.Msg = "没有待办事项！";
+                }
+            }
+            catch (Exception)
+            {
+                response.ResultCode = -99;
+                response.Msg = "服务器端内部错误！请查看后端日志！";
+            }
+            return Ok(response);
+        }
     }
 }

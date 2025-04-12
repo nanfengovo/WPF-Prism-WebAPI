@@ -94,6 +94,12 @@
             <param name="waitDTO">待办事项信息</param>
             <returns>1：添加成功；-1：添加失败； -99：异常</returns>
         </member>
+        <member name="M:DailyApp.API.Controllers.WaitController.GetWaiting">
+            <summary>
+            获取待办状态的所有待办事项
+            </summary>
+            <returns>1：获取成功；-1：获取失败；99：异常</returns>
+        </member>
         <member name="T:DailyApp.API.DataModel.AccountInfo">
             <summary>
             登录账号的数据模型

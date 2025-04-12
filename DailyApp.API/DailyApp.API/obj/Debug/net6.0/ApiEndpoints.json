@@ -54,6 +54,16 @@
   },
   {
     "ContainingType": "DailyApp.API.Controllers.WaitController",
+    "Method": "GetWaiting",
+    "RelativePath": "api/Wait/GetWaiting",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DailyApp.API.Controllers.WaitController",
     "Method": "StatWait",
     "RelativePath": "api/Wait/StatWait",
     "HttpMethod": "GET",
