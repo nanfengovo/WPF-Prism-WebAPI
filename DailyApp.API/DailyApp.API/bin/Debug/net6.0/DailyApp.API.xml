@@ -114,6 +114,14 @@
             <param name="newWaitDTO">修改的新的实体</param>
             <returns>1：修改成功，-99：异常，-1：状态id错误</returns>
         </member>
+        <member name="M:DailyApp.API.Controllers.WaitController.QueryWait(System.String,System.String)">
+             <summary>
+            查询待办事项
+             </summary>
+             <param name="Title">标题（模糊查询）</param>
+             <param name="Status">状态</param>
+             <returns>1：查询成功 -99：异常</returns>
+        </member>
         <member name="T:DailyApp.API.DataModel.AccountInfo">
             <summary>
             登录账号的数据模型

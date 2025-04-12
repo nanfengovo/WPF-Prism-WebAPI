@@ -64,6 +64,27 @@
   },
   {
     "ContainingType": "DailyApp.API.Controllers.WaitController",
+    "Method": "QueryWait",
+    "RelativePath": "api/Wait/QueryWait",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DailyApp.API.Controllers.WaitController",
     "Method": "StatWait",
     "RelativePath": "api/Wait/StatWait",
     "HttpMethod": "GET",

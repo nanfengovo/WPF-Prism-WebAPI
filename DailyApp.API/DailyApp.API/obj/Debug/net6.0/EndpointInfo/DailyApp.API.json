@@ -193,6 +193,37 @@
           }
         }
       }
+    },
+    "/api/Wait/QueryWait": {
+      "get": {
+        "tags": [
+          "Wait"
+        ],
+        "summary": "查询待办事项",
+        "parameters": [
+          {
+            "name": "Title",
+            "in": "query",
+            "description": "标题（模糊查询）",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Status",
+            "in": "query",
+            "description": "状态",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
     }
   },
   "components": {

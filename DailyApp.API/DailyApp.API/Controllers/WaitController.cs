@@ -219,5 +219,47 @@ namespace DailyApp.API.Controllers
             }
             return Ok(res);
         }
+
+        /// <summary>
+        ///查询待办事项
+        /// </summary>
+        /// <param name="Title">标题（模糊查询）</param>
+        /// <param name="Status">状态</param>
+        /// <returns>1：查询成功 -99：异常</returns>
+        [HttpGet]
+        public IActionResult QueryWait(string? Title,string? Status)
+        {
+            ApiReponse reponse = new ApiReponse();
+            try
+            {
+                var query = from A in db.WaitInfos
+                            select new WaitDTO
+                            {
+                                WaitId = A.WaitId,
+                                Title = A.Title,
+                                Content = A.Content,
+                                Status = A.Status,
+                            };
+                if(!string.IsNullOrEmpty(Title))
+                {
+                    query = query.Where(x => x.Title.Contains(Title));
+                }
+                if (Status != null)
+                {
+                    query = query.Where(x => x.Status == Convert.ToInt32(Status));
+                }
+
+                reponse.ResultCode = 1;
+                reponse.Msg = "查询成功！";
+                reponse.ResultData = query.ToList();
+            }
+            catch (Exception)
+            {
+
+                reponse.ResultCode = -99;
+                reponse.Msg = "服务器端内部错误！请查看后端日志！";
+            }
+            return Ok(reponse);
+        }
     }
 }

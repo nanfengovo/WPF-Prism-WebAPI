@@ -30,5 +30,17 @@ namespace DailyAPP.WPF.DTOs
         /// 状态
         /// </summary>
         public int Status { get; set; }
+
+        /// <summary>
+        /// 背景颜色
+        /// </summary>
+        public string BackColor 
+        {
+            get
+            {
+                return Status==0 ? "#1E90FF" : "#3CB371";
+            }
+        
+        }
     }
 }

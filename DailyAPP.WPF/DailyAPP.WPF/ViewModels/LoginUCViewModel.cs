@@ -267,7 +267,7 @@ namespace DailyAPP.WPF.ViewModels
             set 
             {
                 _pwd = value;
-                RaisePropertyChanged();
+                
             }
         }
         #endregion
