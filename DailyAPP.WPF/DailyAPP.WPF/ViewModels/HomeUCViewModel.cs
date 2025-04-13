@@ -403,7 +403,7 @@ namespace DailyAPP.WPF.ViewModels
         {
             if(!string.IsNullOrEmpty(statPanelInfo.ViewName))
             {
-                if(statPanelInfo.ViewName == "已完成")
+                if(statPanelInfo.ItemName == "已完成")
                 {
                     NavigationParameters paras = new NavigationParameters();
                     paras.Add("SelectedIndex", 2);

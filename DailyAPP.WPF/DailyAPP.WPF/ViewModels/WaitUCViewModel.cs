@@ -53,7 +53,7 @@ namespace DailyAPP.WPF.ViewModels
             ShowAddWaitCmm = new DelegateCommand(ShowAddWait);
             HttpClient = _HttpClient;
 
-            QueryWaitList();
+            
         }
 
         #region 显示添加待办
@@ -139,7 +139,9 @@ namespace DailyAPP.WPF.ViewModels
             if(navigationContext.Parameters.ContainsKey("SelectedIndex"))
             {
                 SearchWaitIndex = navigationContext.Parameters.GetValue<int>("SelectedIndex");
+                
             }
+            QueryWaitList();
         }
 
         public bool IsNavigationTarget(NavigationContext navigationContext)
