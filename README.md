@@ -9,4 +9,8 @@
 > ![image](https://github.com/user-attachments/assets/a53195f9-8a24-4ddb-8024-340ad78d88a9)
 
 
+## 后端 --webapi
+>使用了ASP.NET Core WebAPI (.net 6.0)+EFCore+AutoMapper
+### Swagger:
+![image](https://github.com/user-attachments/assets/67b1ebcc-0ea5-45aa-be1c-33e38eb296ab)
 
