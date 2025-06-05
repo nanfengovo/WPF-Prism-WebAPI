@@ -1,0 +1,160 @@
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
+
+#nullable disable
+
+namespace DailyAPP.WPF.Migrations
+{
+    public partial class init : Migration
+    {
+        protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.CreateTable(
+                name: "T_Menu",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    MenuName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    MenuNo = table.Column<int>(type: "int", nullable: false),
+                    Icon = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    ParentId = table.Column<int>(type: "int", nullable: true),
+                    Order = table.Column<int>(type: "int", nullable: false),
+                    Describe = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    CreateTime = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    LastModifiedTime = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    IsDeleted = table.Column<bool>(type: "bit", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_T_Menu", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "T_Role",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    RoleName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    RoleCode = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Describe = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    CreateTime = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    LastModifiedTime = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    IsDeleted = table.Column<bool>(type: "bit", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_T_Role", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "T_User",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    UserName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    PasswordHash = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Describe = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    CreateTime = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    LastModifiedTime = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    IsDeleted = table.Column<bool>(type: "bit", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_T_User", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "T_Role_Menu",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    RoleId = table.Column<int>(type: "int", nullable: false),
+                    MenuId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_T_Role_Menu", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_T_Role_Menu_T_Menu_MenuId",
+                        column: x => x.MenuId,
+                        principalTable: "T_Menu",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_T_Role_Menu_T_Role_RoleId",
+                        column: x => x.RoleId,
+                        principalTable: "T_Role",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "T_User_Role",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    UserId = table.Column<int>(type: "int", nullable: false),
+                    RoleId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_T_User_Role", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_T_User_Role_T_Role_RoleId",
+                        column: x => x.RoleId,
+                        principalTable: "T_Role",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_T_User_Role_T_User_UserId",
+                        column: x => x.UserId,
+                        principalTable: "T_User",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_T_Role_Menu_MenuId",
+                table: "T_Role_Menu",
+                column: "MenuId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_T_Role_Menu_RoleId",
+                table: "T_Role_Menu",
+                column: "RoleId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_T_User_Role_RoleId",
+                table: "T_User_Role",
+                column: "RoleId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_T_User_Role_UserId",
+                table: "T_User_Role",
+                column: "UserId");
+        }
+
+        protected override void Down(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.DropTable(
+                name: "T_Role_Menu");
+
+            migrationBuilder.DropTable(
+                name: "T_User_Role");
+
+            migrationBuilder.DropTable(
+                name: "T_Menu");
+
+            migrationBuilder.DropTable(
+                name: "T_Role");
+
+            migrationBuilder.DropTable(
+                name: "T_User");
+        }
+    }
+}

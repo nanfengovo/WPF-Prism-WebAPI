@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DailyApp.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4103848fe8917da24ba174bf837a6e3632357575")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fdd54909c8b38e0c9d7d55410b6594d9c8c82f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("DailyApp.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DailyApp.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

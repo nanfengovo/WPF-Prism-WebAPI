@@ -1,0 +1,1048 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Migrations\\20250605140809_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DailyAPP.WPF\\Migrations\\20250605140809_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Migrations\\20250605140723_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DailyAPP.WPF\\Migrations\\20250605140723_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\entityframecore\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\entityframecore\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\entityframecore\\entitymodel\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\entityframecore\\entitymodel\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\entityframecore\\entitymodel\\rolemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\entityframecore\\entitymodel\\rolemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\entityframecore\\entitymodel\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\entityframecore\\entitymodel\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\entityframecore\\entitymodel\\commonattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\entityframecore\\entitymodel\\commonattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\entityframecore\\entitymodel\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\entityframecore\\entitymodel\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\entityframecore\\entitymodel\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\entityframecore\\entitymodel\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\models\\statpanelinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\models\\statpanelinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\models\\leftmenuinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\models\\leftmenuinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\viewmodels\\loginucviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\viewmodels\\loginucviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\httpclients\\httprestclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\httpclients\\httprestclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\views\\mainwin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\views\\mainwin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\views\\loginuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\views\\loginuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\views\\loginuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\views\\loginuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\views\\waituc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\views\\waituc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\views\\waituc.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\views\\waituc.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\views\\memouc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\views\\memouc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\httpclients\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\httpclients\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\httpclients\\apirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\httpclients\\apirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\httpclients\\md5helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\httpclients\\md5helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\msgevents\\msgevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\msgevents\\msgevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\viewmodels\\homeucviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\viewmodels\\homeucviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\viewmodels\\mainwinviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\viewmodels\\mainwinviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\viewmodels\\waitucviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\viewmodels\\waitucviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\views\\homeuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\views\\homeuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\dtos\\waitinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\dtos\\waitinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\extensions\\passwordboxextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\extensions\\passwordboxextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\viewmodels\\dialogs\\editwaitucviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\viewmodels\\dialogs\\editwaitucviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\service\\dialoghostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\service\\dialoghostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\views\\dialogs\\editwaituc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\views\\dialogs\\editwaituc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\viewmodels\\dialogs\\addwaitucviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\viewmodels\\dialogs\\addwaitucviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\views\\dialogs\\addwaituc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\views\\dialogs\\addwaituc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\dtos\\statwaitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\dtos\\statwaitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\service\\idialoghostaware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\service\\idialoghostaware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\views\\mainwin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\views\\mainwin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\views\\memouc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\views\\memouc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\converters\\colortobrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\converters\\colortobrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\viewmodels\\personalucviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\viewmodels\\personalucviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\views\\personaluc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\views\\personaluc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\views\\homeuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\views\\homeuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nanfengqaq\\AppData\\Local\\Temp\\.vsdbgsrc\\6c61f992efe090b0e3dc2069cb691497edb91b0abe79cedfba804baedef8b9f9\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\viewmodels\\settingucviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\viewmodels\\settingucviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\views\\settinguc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\views\\settinguc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\views\\aboutusuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\views\\aboutusuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\views\\syssetuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\views\\syssetuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\viewmodels\\memoucviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\viewmodels\\memoucviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\views\\settinguc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\views\\settinguc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nanfengqaq\\AppData\\Local\\Temp\\.vsdbgsrc\\d85403fabf7af45fd78fcc73b69819a7daa330fad8ca7e092d5a3cfceda0e874\\ItemCollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\dtos\\accountinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\dtos\\accountinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nanfengqaq\\AppData\\Local\\Temp\\.vsdbgsrc\\a7b133b35b4405e1c91289f2d5eb4a63a4ce8c6ee5e22762c8e07074db17714d\\DelegateCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\obj\\Debug\\net6.0-windows10.0.26100.0\\Views\\MainWin.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DailyAPP.WPF\\obj\\Debug\\net6.0-windows10.0.26100.0\\Views\\MainWin.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\dailyapp.wpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\dailyapp.wpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\dailyapp.wpf.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\dailyapp.wpf.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nanfengqaq\\AppData\\Local\\Temp\\.vsdbgsrc\\eb92e277c464108612c0a4b5e2252fce96abde584950a65087ada459b840fe37\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nanfengqaq\\.nuget\\packages\\prism.dryioc\\8.1.97\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|e:\\code\\\u9879\u76EE--\u5B66\u4E60\\wpf(prism)\u002Bwebapi\\dailyapp.wpf - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\dailyapp.wpf\\dtos\\memoranduminfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F6C855C-B7C8-45BE-ADF8-E073698AA80B}|DailyAPP.WPF\\DailyAPP.WPF.csproj|solutionrelative:dailyapp.wpf\\dtos\\memoranduminfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WaitUC.xaml",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\WaitUC.xaml",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\Views\\WaitUC.xaml",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\WaitUC.xaml",
+              "RelativeToolTip": "DailyAPP.WPF\\Views\\WaitUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-07T12:28:28.555Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250605140809_init.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Migrations\\20250605140809_init.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\Migrations\\20250605140809_init.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Migrations\\20250605140809_init.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\Migrations\\20250605140809_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T14:08:09.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250605140723_init.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Migrations\\20250605140723_init.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\Migrations\\20250605140723_init.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Migrations\\20250605140723_init.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\Migrations\\20250605140723_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T14:07:23.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RoleMenu.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\EntityFrameCore\\EntityModel\\RoleMenu.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\EntityFrameCore\\EntityModel\\RoleMenu.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\EntityFrameCore\\EntityModel\\RoleMenu.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\EntityFrameCore\\EntityModel\\RoleMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T13:30:19.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\EntityFrameCore\\EntityModel\\UserRole.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\EntityFrameCore\\EntityModel\\UserRole.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\EntityFrameCore\\EntityModel\\UserRole.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\EntityFrameCore\\EntityModel\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T13:29:44.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\EntityFrameCore\\EntityModel\\Menu.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\EntityFrameCore\\EntityModel\\Menu.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\EntityFrameCore\\EntityModel\\Menu.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\EntityFrameCore\\EntityModel\\Menu.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T13:06:42.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f677620d-05fd-48ed-8423-72a12db4deef}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Role.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\EntityFrameCore\\EntityModel\\Role.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\EntityFrameCore\\EntityModel\\Role.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\EntityFrameCore\\EntityModel\\Role.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\EntityFrameCore\\EntityModel\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:05:25.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\EntityFrameCore\\EntityModel\\User.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\EntityFrameCore\\EntityModel\\User.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\EntityFrameCore\\EntityModel\\User.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\EntityFrameCore\\EntityModel\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:00:06.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CommonAttributes.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\EntityFrameCore\\EntityModel\\CommonAttributes.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\EntityFrameCore\\EntityModel\\CommonAttributes.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\EntityFrameCore\\EntityModel\\CommonAttributes.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\EntityFrameCore\\EntityModel\\CommonAttributes.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T15:56:31.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\EntityFrameCore\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\EntityFrameCore\\MyDbContext.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\EntityFrameCore\\MyDbContext.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\EntityFrameCore\\MyDbContext.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA0wDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T15:27:20.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StatPanelInfo.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Models\\StatPanelInfo.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\Models\\StatPanelInfo.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Models\\StatPanelInfo.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\Models\\StatPanelInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T04:23:57.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\App.xaml.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\App.xaml.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\App.xaml.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\App.xaml.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAArwGQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T08:39:23.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\App.xaml",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\App.xaml",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\App.xaml",
+              "RelativeToolTip": "DailyAPP.WPF\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-04T08:38:10.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginUCViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\ViewModels\\LoginUCViewModel.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\ViewModels\\LoginUCViewModel.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\ViewModels\\LoginUCViewModel.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\ViewModels\\LoginUCViewModel.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAiwLgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T10:47:31.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HttpRestClient.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\HttpClients\\HttpRestClient.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\HttpClients\\HttpRestClient.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\HttpClients\\HttpRestClient.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\HttpClients\\HttpRestClient.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAxwEcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T04:59:22.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainWin.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\MainWin.xaml.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\Views\\MainWin.xaml.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\MainWin.xaml.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\Views\\MainWin.xaml.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAjwFMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T08:39:15.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ApiRequest.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\HttpClients\\ApiRequest.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\HttpClients\\ApiRequest.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\HttpClients\\ApiRequest.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\HttpClients\\ApiRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBMwCAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T04:49:48.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LeftMenuInfo.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Models\\LeftMenuInfo.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\Models\\LeftMenuInfo.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Models\\LeftMenuInfo.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\Models\\LeftMenuInfo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:38:07.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginUC.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\LoginUC.xaml.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\Views\\LoginUC.xaml.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\LoginUC.xaml.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\Views\\LoginUC.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBMwCYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T09:13:41.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\HttpClients\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\HttpClients\\ApiResponse.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\HttpClients\\ApiResponse.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\HttpClients\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T04:56:17.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WaitUC.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\WaitUC.xaml.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\Views\\WaitUC.xaml.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\WaitUC.xaml.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\Views\\WaitUC.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBMwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T12:33:26.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginUC.xaml",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\LoginUC.xaml",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\Views\\LoginUC.xaml",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\LoginUC.xaml",
+              "RelativeToolTip": "DailyAPP.WPF\\Views\\LoginUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-04T08:45:36.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MemoUC.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\MemoUC.xaml.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\Views\\MemoUC.xaml.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\MemoUC.xaml.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\Views\\MemoUC.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T14:05:14.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Md5Helper.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\HttpClients\\Md5Helper.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\HttpClients\\Md5Helper.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\HttpClients\\Md5Helper.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\HttpClients\\Md5Helper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T07:01:05.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MsgEvent.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\MsgEvents\\MsgEvent.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\MsgEvents\\MsgEvent.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\MsgEvents\\MsgEvent.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\MsgEvents\\MsgEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T07:24:27.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HomeUCViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\ViewModels\\HomeUCViewModel.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\ViewModels\\HomeUCViewModel.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\ViewModels\\HomeUCViewModel.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\ViewModels\\HomeUCViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIgBAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T12:31:36.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HomeUC.xaml",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\HomeUC.xaml",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\Views\\HomeUC.xaml",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\HomeUC.xaml",
+              "RelativeToolTip": "DailyAPP.WPF\\Views\\HomeUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-07T12:27:22.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "WaitInfoDTO.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\DTOs\\WaitInfoDTO.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\DTOs\\WaitInfoDTO.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\DTOs\\WaitInfoDTO.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\DTOs\\WaitInfoDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAD4vxoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:03:39.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MainWinViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\ViewModels\\MainWinViewModel.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\ViewModels\\MainWinViewModel.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\ViewModels\\MainWinViewModel.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\ViewModels\\MainWinViewModel.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAWwDMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T08:36:51.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "WaitUCViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\ViewModels\\WaitUCViewModel.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\ViewModels\\WaitUCViewModel.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\ViewModels\\WaitUCViewModel.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\ViewModels\\WaitUCViewModel.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAWwFQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T12:32:02.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PasswordBoxExtend.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Extensions\\PasswordBoxExtend.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\Extensions\\PasswordBoxExtend.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Extensions\\PasswordBoxExtend.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\Extensions\\PasswordBoxExtend.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAWwCwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T08:36:54.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EditWaitUCViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\ViewModels\\Dialogs\\EditWaitUCViewModel.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\ViewModels\\Dialogs\\EditWaitUCViewModel.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\ViewModels\\Dialogs\\EditWaitUCViewModel.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\ViewModels\\Dialogs\\EditWaitUCViewModel.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:26:41.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EditWaitUC.xaml",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\Dialogs\\EditWaitUC.xaml",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\Views\\Dialogs\\EditWaitUC.xaml",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\Dialogs\\EditWaitUC.xaml",
+              "RelativeToolTip": "DailyAPP.WPF\\Views\\Dialogs\\EditWaitUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-12T11:24:14.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DialogHostService.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Service\\DialogHostService.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\Service\\DialogHostService.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Service\\DialogHostService.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\Service\\DialogHostService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAMwDIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T01:09:43.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AddWaitUCViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\ViewModels\\Dialogs\\AddWaitUCViewModel.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\ViewModels\\Dialogs\\AddWaitUCViewModel.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\ViewModels\\Dialogs\\AddWaitUCViewModel.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\ViewModels\\Dialogs\\AddWaitUCViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:15:51.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IDialogHostAware.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Service\\IDialogHostAware.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\Service\\IDialogHostAware.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Service\\IDialogHostAware.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\Service\\IDialogHostAware.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwBIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T01:16:00.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AddWaitUC.xaml",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\Dialogs\\AddWaitUC.xaml",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\Views\\Dialogs\\AddWaitUC.xaml",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\Dialogs\\AddWaitUC.xaml",
+              "RelativeToolTip": "DailyAPP.WPF\\Views\\Dialogs\\AddWaitUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-11T16:45:44.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "StatWaitDTO.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\DTOs\\StatWaitDTO.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\DTOs\\StatWaitDTO.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\DTOs\\StatWaitDTO.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\DTOs\\StatWaitDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBMwAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T16:17:40.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "MainWin.xaml",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\MainWin.xaml",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\Views\\MainWin.xaml",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\MainWin.xaml",
+              "RelativeToolTip": "DailyAPP.WPF\\Views\\MainWin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-04T08:36:16.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "MemoUC.xaml",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\MemoUC.xaml",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\Views\\MemoUC.xaml",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\MemoUC.xaml",
+              "RelativeToolTip": "DailyAPP.WPF\\Views\\MemoUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-07T12:29:38.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PersonalUCViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\ViewModels\\PersonalUCViewModel.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\ViewModels\\PersonalUCViewModel.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\ViewModels\\PersonalUCViewModel.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\ViewModels\\PersonalUCViewModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAIBMwBUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T12:02:17.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "PersonalUC.xaml",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\PersonalUC.xaml",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\Views\\PersonalUC.xaml",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\PersonalUC.xaml",
+              "RelativeToolTip": "DailyAPP.WPF\\Views\\PersonalUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-10T11:58:12.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ColorToBrushConverter.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Converters\\ColorToBrushConverter.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\Converters\\ColorToBrushConverter.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Converters\\ColorToBrushConverter.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\Converters\\ColorToBrushConverter.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBMwBIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T14:31:55.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "HomeUC.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\HomeUC.xaml.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\Views\\HomeUC.xaml.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\HomeUC.xaml.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\Views\\HomeUC.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T11:01:49.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "SettingUC.xaml",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\SettingUC.xaml",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\Views\\SettingUC.xaml",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\SettingUC.xaml",
+              "RelativeToolTip": "DailyAPP.WPF\\Views\\SettingUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-07T12:30:22.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "XamlReader.cs",
+              "DocumentMoniker": "C:\\Users\\nanfengqaq\\AppData\\Local\\Temp\\.vsdbgsrc\\6c61f992efe090b0e3dc2069cb691497edb91b0abe79cedfba804baedef8b9f9\\XamlReader.cs",
+              "ToolTip": "C:\\Users\\nanfengqaq\\AppData\\Local\\Temp\\.vsdbgsrc\\6c61f992efe090b0e3dc2069cb691497edb91b0abe79cedfba804baedef8b9f9\\XamlReader.cs",
+              "ViewState": "AgIAAFUBAAAAAAAAAAAjwGMBAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T14:32:46.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "SettingUCViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\ViewModels\\SettingUCViewModel.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\ViewModels\\SettingUCViewModel.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\ViewModels\\SettingUCViewModel.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\ViewModels\\SettingUCViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T12:32:46.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "SysSetUC.xaml",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\SysSetUC.xaml",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\Views\\SysSetUC.xaml",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\SysSetUC.xaml",
+              "RelativeToolTip": "DailyAPP.WPF\\Views\\SysSetUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-10T11:59:09.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AboutUsUC.xaml",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\AboutUsUC.xaml",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\Views\\AboutUsUC.xaml",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\AboutUsUC.xaml",
+              "RelativeToolTip": "DailyAPP.WPF\\Views\\AboutUsUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-10T12:00:07.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "MemoUCViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\ViewModels\\MemoUCViewModel.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\ViewModels\\MemoUCViewModel.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\ViewModels\\MemoUCViewModel.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\ViewModels\\MemoUCViewModel.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwCcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T12:32:25.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ItemCollection.cs",
+              "DocumentMoniker": "C:\\Users\\nanfengqaq\\AppData\\Local\\Temp\\.vsdbgsrc\\d85403fabf7af45fd78fcc73b69819a7daa330fad8ca7e092d5a3cfceda0e874\\ItemCollection.cs",
+              "ToolTip": "C:\\Users\\nanfengqaq\\AppData\\Local\\Temp\\.vsdbgsrc\\d85403fabf7af45fd78fcc73b69819a7daa330fad8ca7e092d5a3cfceda0e874\\ItemCollection.cs",
+              "ViewState": "AgIAANIEAAAAAAAAAAAjwOAEAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T12:26:23.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AccountInfoDTO.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\DTOs\\AccountInfoDTO.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\DTOs\\AccountInfoDTO.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\DTOs\\AccountInfoDTO.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\DTOs\\AccountInfoDTO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwB0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T06:00:33.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "SettingUC.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\SettingUC.xaml.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\Views\\SettingUC.xaml.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\Views\\SettingUC.xaml.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\Views\\SettingUC.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T12:46:28.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "MemorandumInfoDTO.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\DTOs\\MemorandumInfoDTO.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\DTOs\\MemorandumInfoDTO.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\DTOs\\MemorandumInfoDTO.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\DTOs\\MemorandumInfoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T04:34:50.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "DelegateCommand.cs",
+              "DocumentMoniker": "C:\\Users\\nanfengqaq\\AppData\\Local\\Temp\\.vsdbgsrc\\a7b133b35b4405e1c91289f2d5eb4a63a4ce8c6ee5e22762c8e07074db17714d\\DelegateCommand.cs",
+              "ToolTip": "C:\\Users\\nanfengqaq\\AppData\\Local\\Temp\\.vsdbgsrc\\a7b133b35b4405e1c91289f2d5eb4a63a4ce8c6ee5e22762c8e07074db17714d\\DelegateCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBMwGgAAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:21:20.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "MainWin.g.i.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\obj\\Debug\\net6.0-windows10.0.26100.0\\Views\\MainWin.g.i.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\obj\\Debug\\net6.0-windows10.0.26100.0\\Views\\MainWin.g.i.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\obj\\Debug\\net6.0-windows10.0.26100.0\\Views\\MainWin.g.i.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\obj\\Debug\\net6.0-windows10.0.26100.0\\Views\\MainWin.g.i.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAtwJgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T12:01:21.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\AssemblyInfo.cs",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\AssemblyInfo.cs",
+              "RelativeToolTip": "DailyAPP.WPF\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T08:38:08.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "DailyAPP.WPF.csproj",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\DailyAPP.WPF.csproj",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\DailyAPP.WPF.csproj",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\DailyAPP.WPF.csproj",
+              "RelativeToolTip": "DailyAPP.WPF\\DailyAPP.WPF.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBcwBUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-04T10:36:11.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "DailyAPP.WPF",
+              "DocumentMoniker": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\DailyAPP.WPF.csproj",
+              "RelativeDocumentMoniker": "DailyAPP.WPF\\DailyAPP.WPF.csproj",
+              "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyAPP.WPF - \u72EC\u7ACB\u8FD0\u884C\u7248\u672C\\DailyAPP.WPF\\DailyAPP.WPF.csproj",
+              "RelativeToolTip": "DailyAPP.WPF\\DailyAPP.WPF.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-04T10:32:33.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ResourcePart.cs",
+              "DocumentMoniker": "C:\\Users\\nanfengqaq\\AppData\\Local\\Temp\\.vsdbgsrc\\eb92e277c464108612c0a4b5e2252fce96abde584950a65087ada459b840fe37\\ResourcePart.cs",
+              "ToolTip": "C:\\Users\\nanfengqaq\\AppData\\Local\\Temp\\.vsdbgsrc\\eb92e277c464108612c0a4b5e2252fce96abde584950a65087ada459b840fe37\\ResourcePart.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwCcAAAAEAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T08:42:24.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\nanfengqaq\\.nuget\\packages\\prism.dryioc\\8.1.97\\readme.txt",
+              "ToolTip": "C:\\Users\\nanfengqaq\\.nuget\\packages\\prism.dryioc\\8.1.97\\readme.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-04T08:34:35.365Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

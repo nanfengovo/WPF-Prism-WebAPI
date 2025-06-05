@@ -63,7 +63,6 @@ E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyApp.API\DailyApp.API\obj\Debug\net
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyApp.API\DailyApp.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.DailyApp.API.props
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyApp.API\DailyApp.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.DailyApp.API.props
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyApp.API\DailyApp.API\obj\Debug\net6.0\staticwebassets.pack.json
-E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyApp.API\DailyApp.API\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyApp.API\DailyApp.API\obj\Debug\net6.0\DailyApp.0CD99AF0.Up2Date
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyApp.API\DailyApp.API\obj\Debug\net6.0\DailyApp.API.dll
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyApp.API\DailyApp.API\obj\Debug\net6.0\refint\DailyApp.API.dll

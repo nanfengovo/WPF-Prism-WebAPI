@@ -1,0 +1,103 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Code\\项目--学习\\WPF(Prism)+WebAPI\\DailyAPP.WPF\\DailyAPP.WPF\\DailyAPP.WPF.csproj": {}
+  },
+  "projects": {
+    "E:\\Code\\项目--学习\\WPF(Prism)+WebAPI\\DailyAPP.WPF\\DailyAPP.WPF\\DailyAPP.WPF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Code\\项目--学习\\WPF(Prism)+WebAPI\\DailyAPP.WPF\\DailyAPP.WPF\\DailyAPP.WPF.csproj",
+        "projectName": "DailyAPP.WPF",
+        "projectPath": "E:\\Code\\项目--学习\\WPF(Prism)+WebAPI\\DailyAPP.WPF\\DailyAPP.WPF\\DailyAPP.WPF.csproj",
+        "packagesPath": "C:\\Users\\nanfengqaq\\.nuget\\packages\\",
+        "outputPath": "E:\\Code\\项目--学习\\WPF(Prism)+WebAPI\\DailyAPP.WPF\\DailyAPP.WPF\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nanfengqaq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows10.0.26100.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows10.0.26100": {
+            "targetAlias": "net6.0-windows10.0.26100.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net6.0-windows10.0.26100": {
+          "targetAlias": "net6.0-windows10.0.26100.0",
+          "dependencies": {
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Prism.DryIoc": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.15.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.26100.55, 10.0.26100.55]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref.Windows": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
