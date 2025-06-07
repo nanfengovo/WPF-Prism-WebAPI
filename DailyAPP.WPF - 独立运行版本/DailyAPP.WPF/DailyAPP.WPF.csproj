@@ -47,8 +47,4 @@
     <Resource Include="Images\wind.png" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="EntityFrameCore\Config\" />
-  </ItemGroup>
-
 </Project>

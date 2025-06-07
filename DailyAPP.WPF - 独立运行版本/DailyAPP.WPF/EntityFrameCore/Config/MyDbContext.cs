@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DailyAPP.WPF.EntityFrameCore
+namespace DailyAPP.WPF.EntityFrameCore.Config
 {
     public class MyDbContext:DbContext
     {

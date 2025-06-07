@@ -1,4 +1,6 @@
-﻿using DailyAPP.WPF.HttpClients;
+﻿using DailyAPP.WPF.Domain.IServe;
+using DailyAPP.WPF.Domain.Serve;
+using DailyAPP.WPF.HttpClients;
 using DailyAPP.WPF.Service;
 using DailyAPP.WPF.ViewModels;
 using DailyAPP.WPF.ViewModels.Dialogs;
@@ -35,6 +37,9 @@ namespace DailyAPP.WPF
         /// <param name="containerRegistry"></param>
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            //注入服务
+            containerRegistry.RegisterSingleton<IUserManagerServe, UserManagerServe>();
+
             //登录
             containerRegistry.RegisterDialog<LoginUC, LoginUCViewModel>();
 

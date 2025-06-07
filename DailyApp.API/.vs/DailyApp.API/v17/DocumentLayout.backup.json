@@ -106,8 +106,7 @@
               "RelativeToolTip": "DailyApp.API\\DataModel\\AccountInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T02:01:23.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T02:01:23.124Z"
             },
             {
               "$type": "Document",
@@ -119,8 +118,7 @@
               "RelativeToolTip": "DailyApp.API\\Controllers\\WaitController.cs",
               "ViewState": "AgIAANQAAAAAAAAAAAAUwOUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T15:14:25.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T15:14:25.863Z"
             },
             {
               "$type": "Document",
@@ -132,8 +130,7 @@
               "RelativeToolTip": "DailyApp.API\\DTOs\\WaitDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T01:56:36.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-12T01:56:36.263Z"
             },
             {
               "$type": "Document",
@@ -145,8 +142,7 @@
               "RelativeToolTip": "DailyApp.API\\DataModel\\WaitInfo.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwBAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T15:02:20.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T15:02:20.78Z"
             },
             {
               "$type": "Document",
@@ -158,8 +154,7 @@
               "RelativeToolTip": "DailyApp.API\\Migrations\\20250411151049_addFieldFromWaitInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T15:10:49.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T15:10:49.528Z"
             },
             {
               "$type": "Document",
@@ -171,8 +166,7 @@
               "RelativeToolTip": "DailyApp.API\\ApiReponses\\ApiReponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T03:12:23.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T03:12:23.163Z"
             },
             {
               "$type": "Document",
@@ -182,7 +176,7 @@
               "RelativeDocumentMoniker": "DailyApp.API\\Program.cs",
               "ToolTip": "E:\\Code\\\u9879\u76EE--\u5B66\u4E60\\WPF(Prism)\u002BWebAPI\\DailyApp.API\\DailyApp.API\\Program.cs",
               "RelativeToolTip": "DailyApp.API\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwBMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T02:00:26.168Z",
               "EditorCaption": ""
@@ -197,8 +191,7 @@
               "RelativeToolTip": "DailyApp.API\\AutoMappers\\AutoMapperSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T04:08:53.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T04:08:53.14Z"
             },
             {
               "$type": "Document",
@@ -210,8 +203,7 @@
               "RelativeToolTip": "DailyApp.API\\Controllers\\AccountController.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAmwFsAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T03:26:12.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T03:26:12.733Z"
             },
             {
               "$type": "Document",
@@ -223,8 +215,7 @@
               "RelativeToolTip": "DailyApp.API\\DataModel\\DailyDbContext.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAiwBYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T02:53:04.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T02:53:04.081Z"
             },
             {
               "$type": "Document",
@@ -236,8 +227,7 @@
               "RelativeToolTip": "DailyApp.API\\Migrations\\20250411150729_addwaitinfoentity.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T15:07:29.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T15:07:29.735Z"
             },
             {
               "$type": "Document",
@@ -249,8 +239,7 @@
               "RelativeToolTip": "DailyApp.API\\DTOs\\StatWaitDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T15:20:15.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T15:20:15.575Z"
             },
             {
               "$type": "Document",
@@ -262,8 +251,7 @@
               "RelativeToolTip": "DailyApp.API\\DTOs\\AccountInfoDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T03:31:07.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T03:31:07.417Z"
             },
             {
               "$type": "Document",
@@ -275,8 +263,7 @@
               "RelativeToolTip": "DailyApp.API\\Migrations\\20250406030738_Init.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T03:07:39.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T03:07:39.067Z"
             },
             {
               "$type": "Document",
@@ -288,8 +275,7 @@
               "RelativeToolTip": "DailyApp.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-06T02:06:23.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T02:06:23.457Z"
             },
             {
               "$type": "Document",

@@ -1,4 +1,5 @@
-﻿using DailyAPP.WPF.DTOs;
+﻿using DailyAPP.WPF.Domain.IServe;
+using DailyAPP.WPF.DTOs;
 using DailyAPP.WPF.HttpClients;
 using DailyAPP.WPF.MsgEvents;
 using DryIoc;
@@ -34,11 +35,13 @@ namespace DailyAPP.WPF.ViewModels
         //发布订阅
         private readonly IEventAggregator Aggregator;
 
+        private readonly IUserManagerServe _UserServe;
+
 
         /// <summary>
         /// 构造函数
         /// </summary>
-        public LoginUCViewModel(HttpRestClient _HttpClient ,IEventAggregator _Aggregator)
+        public LoginUCViewModel(HttpRestClient _HttpClient, IEventAggregator _Aggregator, IUserManagerServe userServe)
         {
             //登录命令
             LoginCmm = new DelegateCommand(Login);
@@ -50,7 +53,10 @@ namespace DailyAPP.WPF.ViewModels
             ShowLogInfoCmm = new DelegateCommand(ShowLogInfo);
 
             //注册命令
-            Regcmm = new DelegateCommand(Reg);
+
+            // Update the DelegateCommand initialization for Regcmm to handle the async method properly.  
+            Regcmm = new DelegateCommand(async () => await Reg());
+            //Regcmm = new DelegateCommand(Reg);
 
             //实例对象
             AccountInfoDTO = new AccountInfoDTO();
@@ -59,6 +65,8 @@ namespace DailyAPP.WPF.ViewModels
             HttpClient = _HttpClient;
 
             Aggregator = _Aggregator;
+
+            _UserServe = userServe;
         }
 
         #region 注册
@@ -67,7 +75,7 @@ namespace DailyAPP.WPF.ViewModels
         /// <summary>
         /// 注册方法
         /// </summary>
-        private void Reg()
+        private async Task Reg()
         {
             if (string.IsNullOrEmpty(AccountInfoDTO.Name) || string.IsNullOrEmpty(AccountInfoDTO.Account) || string.IsNullOrEmpty(AccountInfoDTO.Pwd) || string.IsNullOrEmpty(AccountInfoDTO.ConfrmPwd))
             {
@@ -86,23 +94,14 @@ namespace DailyAPP.WPF.ViewModels
             }
             //对密码加密
             AccountInfoDTO.Pwd = Md5Helper.GetMd5(AccountInfoDTO.Pwd);
-            //调用API
-            ApiRequest apiRequest = new ApiRequest()
-            {
-                Method = RestSharp.Method.POST,
-                Route = "Account/Reg",
-                ContentType = "application/json",
-                Parameters = AccountInfoDTO
-            };
 
-            //返回结果
-            var response = HttpClient.Execute(apiRequest);
+            var success = await _UserServe.AddUserAsync(AccountInfoDTO);
 
-            if(response.ResultCode == 1)
+            if(success)
             {
                 //MessageBox.Show(response.Msg);
                 //发布消息
-                Aggregator.GetEvent<MsgEvent>().Publish(response.Msg);
+                Aggregator.GetEvent<MsgEvent>().Publish("注册成功！");
                 //清空输入框
                 AccountInfoDTO.Name = "";
                 AccountInfoDTO.Account = "";
@@ -115,7 +114,7 @@ namespace DailyAPP.WPF.ViewModels
             {
                 //MessageBox.Show(response.Msg);
                 //发布消息
-                Aggregator.GetEvent<MsgEvent>().Publish(response.Msg);
+                Aggregator.GetEvent<MsgEvent>().Publish("注册失败！！");
             }
 
 
