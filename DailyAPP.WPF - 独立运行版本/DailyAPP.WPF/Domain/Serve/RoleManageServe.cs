@@ -1,0 +1,20 @@
+﻿using DailyAPP.WPF.Domain.IServe;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DailyAPP.WPF.Domain.Serve
+{
+    public class RoleManageServe : IRoleManageServe
+    {
+
+        
+
+        public Task<(bool Success, string Msg)> AddRoleAsync(string RoleName)
+        {
+            
+        }
+    }
+}

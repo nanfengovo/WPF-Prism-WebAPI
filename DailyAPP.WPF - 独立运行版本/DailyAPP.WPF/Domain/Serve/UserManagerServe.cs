@@ -20,7 +20,7 @@ namespace DailyAPP.WPF.Domain.Serve
             _dbContext = dbContext;
         }
 
-        public Task<bool> AddUserAsync(AccountInfoDTO account)
+        public Task<(bool, string)> AddUserAsync(AccountInfoDTO account)
         {
             try
             {
@@ -30,7 +30,7 @@ namespace DailyAPP.WPF.Domain.Serve
                 if (ExistUser != null)
                 {
                     // 如果用户已存在，返回 false
-                    return Task.FromResult(false);
+                    return Task.FromResult((false, "该用户已存在！"));
                 }
 
                 var user = new User()
@@ -42,12 +42,33 @@ namespace DailyAPP.WPF.Domain.Serve
                 };
                 _dbContext.Users.Add(user);
                 _dbContext.SaveChanges();
-                return Task.FromResult(true);
+                return Task.FromResult((true, "用户添加成功！"));
             }
             catch (Exception ex)
             {
                 // Log the exception (not implemented here)
-                return Task.FromResult(false);
+                return Task.FromResult((false, "发生错误：" + ex.Message));
+            }
+        }
+
+        public Task<(bool, string)> LoginAsync(string Account, string Pwd)
+        {
+            try
+            {
+                // 1、先效验是否存在账号
+                var ExistUser = _dbContext.Users.FirstOrDefault(user => user.UserName == Account && user.PasswordHash == Pwd);
+                if (ExistUser == null)
+                {
+                    // 如果用户不存在，返回 false
+                    return Task.FromResult((false, "账号或密码错误！"));
+                }
+                // 登录成功，返回 true
+                return Task.FromResult((true, "登录成功！"));
+            }
+            catch (Exception ex)
+            {
+                // Log the exception (not implemented here)
+                return Task.FromResult((false, "发生错误：" + ex.Message));
             }
         }
     }

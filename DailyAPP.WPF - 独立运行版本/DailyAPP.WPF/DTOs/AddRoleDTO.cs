@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DailyAPP.WPF.Domain.Serve
+namespace DailyAPP.WPF.DTOs
 {
-    public class MenuManager
+    internal class AddRoleDTO
     {
     }
 }

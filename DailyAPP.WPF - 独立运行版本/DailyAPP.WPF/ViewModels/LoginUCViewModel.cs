@@ -44,7 +44,7 @@ namespace DailyAPP.WPF.ViewModels
         public LoginUCViewModel(HttpRestClient _HttpClient, IEventAggregator _Aggregator, IUserManagerServe userServe)
         {
             //登录命令
-            LoginCmm = new DelegateCommand(Login);
+            LoginCmm = new DelegateCommand(async()=> await Login());
 
             //显示注册内容命令
             ShowRegInfoCmm = new DelegateCommand(ShowRegInfo);
@@ -97,11 +97,11 @@ namespace DailyAPP.WPF.ViewModels
 
             var success = await _UserServe.AddUserAsync(AccountInfoDTO);
 
-            if(success)
+            if(success.Item1)
             {
                 //MessageBox.Show(response.Msg);
                 //发布消息
-                Aggregator.GetEvent<MsgEvent>().Publish("注册成功！");
+                Aggregator.GetEvent<MsgEvent>().Publish($"{success.Item2}");
                 //清空输入框
                 AccountInfoDTO.Name = "";
                 AccountInfoDTO.Account = "";
@@ -114,7 +114,7 @@ namespace DailyAPP.WPF.ViewModels
             {
                 //MessageBox.Show(response.Msg);
                 //发布消息
-                Aggregator.GetEvent<MsgEvent>().Publish("注册失败！！");
+                Aggregator.GetEvent<MsgEvent>().Publish($"{success.Item2}");
             }
 
 
@@ -186,34 +186,31 @@ namespace DailyAPP.WPF.ViewModels
         /// 登录
         /// </summary>
         /// <exception cref="NotImplementedException"></exception>
-        private void Login()
+        private async Task Login()
         {
-            //数据的基本验证
+            // 数据的基本验证
             if (string.IsNullOrEmpty(Account) || string.IsNullOrEmpty(Pwd))
             {
-                //发布消息
                 Aggregator.GetEvent<MsgEvent>().Publish("登录信息不全！");
                 return;
             }
-            //登录成功
-            if(Account == "admin" && Pwd == "123456")
+
+            // 对密码加密
+            var encryptedPwd = Md5Helper.GetMd5(Pwd);
+
+            // 登录异步调用
+            var result = await _UserServe.LoginAsync(Account, encryptedPwd);
+
+            if (result.Item1)
             {
-                if(RequestClose != null)
-                {
-                    DialogParameters paras = new DialogParameters();
-                    paras.Add("LoginName" , Account);
-                    RequestClose(new DialogResult(ButtonResult.OK,paras));
-                }
+                Aggregator.GetEvent<MsgEvent>().Publish(result.Item2);
+                var paras = new DialogParameters { { "LoginName", Account } };
+                RequestClose?.Invoke(new DialogResult(ButtonResult.OK, paras));
             }
             else
             {
-                Aggregator.GetEvent<MsgEvent>().Publish("登录成功！");
+                Aggregator.GetEvent<MsgEvent>().Publish(result.Item2);
             }
-
-          
-
-            //
-
         }
 
         /// <summary>

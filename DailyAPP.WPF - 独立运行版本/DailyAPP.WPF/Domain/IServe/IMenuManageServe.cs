@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DailyAPP.WPF.Domain.IServe
 {
-    public interface IMenuManager
+    public interface IMenuManageServe
     {
         Task<bool> AddMenu(string menuName, string viewName);
     }
