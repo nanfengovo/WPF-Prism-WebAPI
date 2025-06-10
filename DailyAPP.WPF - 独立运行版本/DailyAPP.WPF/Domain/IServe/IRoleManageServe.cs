@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DailyAPP.WPF.DTOs;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,6 @@ namespace DailyAPP.WPF.Domain.IServe
         /// </summary>
         /// <param name="RoleName"></param>
         /// <returns></returns>
-        Task<(bool Success, string Msg)> AddRoleAsync(string RoleName);
+        Task<(bool Success, string Msg)> AddRoleAsync(AddRoleDTO role);
     }
 }

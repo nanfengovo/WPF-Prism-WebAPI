@@ -25,6 +25,11 @@ namespace DailyAPP.WPF.ViewModels
         public DelegateCommand ShowRegInfoCmm {  get; set; }
 
         /// <summary>
+        /// 显示忘记密码命令
+        /// </summary>
+        public DelegateCommand ShowResetPwdCmm { get; set; }
+
+        /// <summary>
         /// 显示登录信息命令
         /// </summary>
         public DelegateCommand ShowLogInfoCmm { get; set; }
@@ -46,8 +51,14 @@ namespace DailyAPP.WPF.ViewModels
             //登录命令
             LoginCmm = new DelegateCommand(async()=> await Login());
 
+            //修改密码命令
+            ResetPwdcmm = new DelegateCommand(async () => await ResetPwd());
+
             //显示注册内容命令
             ShowRegInfoCmm = new DelegateCommand(ShowRegInfo);
+
+            //显示忘记密码命令
+            ShowResetPwdCmm = new DelegateCommand(ShowResetPwd);
 
             //显示登录信息命令
             ShowLogInfoCmm = new DelegateCommand(ShowLogInfo);
@@ -67,6 +78,16 @@ namespace DailyAPP.WPF.ViewModels
             Aggregator = _Aggregator;
 
             _UserServe = userServe;
+        }
+
+        
+
+        /// <summary>
+        /// 忘记密码
+        /// </summary>
+        private void ShowResetPwd()
+        {
+            SelectedIndex = 2;
         }
 
         #region 注册
@@ -90,6 +111,8 @@ namespace DailyAPP.WPF.ViewModels
                 //MessageBox.Show("两次密码不一致");
                 //发布消息
                 Aggregator.GetEvent<MsgEvent>().Publish("两次密码不一致");
+                AccountInfoDTO.Pwd = "";
+                AccountInfoDTO.ConfrmPwd = "";
                 return;
             }
             //对密码加密
@@ -112,9 +135,31 @@ namespace DailyAPP.WPF.ViewModels
             }
             else
             {
-                //MessageBox.Show(response.Msg);
-                //发布消息
-                Aggregator.GetEvent<MsgEvent>().Publish($"{success.Item2}");
+                if(success.Item2 == "该用户已存在！")
+                {
+                    //发布消息
+                    Aggregator.GetEvent<MsgEvent>().Publish($"{success.Item2},可以直接登录！！");
+                    //切换登录页
+                    SelectedIndex = 0;
+                    //清空输入框
+                    AccountInfoDTO.Name = "";
+                    AccountInfoDTO.Account = "";
+                    AccountInfoDTO.Pwd = "";
+                    AccountInfoDTO.ConfrmPwd = "";
+                }
+                else
+                {
+                    //MessageBox.Show(response.Msg);
+                    //发布消息
+                    Aggregator.GetEvent<MsgEvent>().Publish($"{success.Item2}");
+                    //清空输入框
+                    AccountInfoDTO.Name = "";
+                    AccountInfoDTO.Account = "";
+                    AccountInfoDTO.Pwd = "";
+                    AccountInfoDTO.ConfrmPwd = "";
+                }
+
+               
             }
 
 
@@ -176,6 +221,43 @@ namespace DailyAPP.WPF.ViewModels
         public event Action<IDialogResult> RequestClose;
 
         /// <summary>
+        /// 修改密码命令
+        /// </summary>
+        public DelegateCommand ResetPwdcmm { get; set; }
+
+        /// <summary>
+        /// 修改密码
+        /// </summary>
+        /// <returns></returns>
+        /// <exception cref="NotImplementedException"></exception>
+        private async Task ResetPwd()
+        {
+            var result = await _UserServe.ResetPwdAsync(AccountInfoDTO.Account, Pwd,AccountInfoDTO.Pwd, AccountInfoDTO.ConfrmPwd);
+            if (result.Item1)
+            {
+                // 发布消息
+                Aggregator.GetEvent<MsgEvent>().Publish(result.Item2);
+                // 清空输入框
+                AccountInfoDTO.Account = "";
+                Pwd = "";
+                AccountInfoDTO.Pwd = "";
+                AccountInfoDTO.ConfrmPwd = "";
+                // 切换到登录界面
+                SelectedIndex = 0;
+            }
+            else
+            {
+                // 发布消息
+                Aggregator.GetEvent<MsgEvent>().Publish(result.Item2);
+                // 清空输入框
+                AccountInfoDTO.Account = "";
+                Pwd = "";
+                AccountInfoDTO.Pwd = "";
+                AccountInfoDTO.ConfrmPwd = "";
+            }
+        }
+
+        /// <summary>
         /// 登录命令
         /// </summary>
         public DelegateCommand LoginCmm { get; set; }
@@ -206,10 +288,16 @@ namespace DailyAPP.WPF.ViewModels
                 Aggregator.GetEvent<MsgEvent>().Publish(result.Item2);
                 var paras = new DialogParameters { { "LoginName", Account } };
                 RequestClose?.Invoke(new DialogResult(ButtonResult.OK, paras));
+                //清空输入
+                Account = "";
+                Pwd = "";
             }
             else
             {
                 Aggregator.GetEvent<MsgEvent>().Publish(result.Item2);
+                //清空输入
+                Account = "";
+                Pwd = "";
             }
         }
 
@@ -249,7 +337,7 @@ namespace DailyAPP.WPF.ViewModels
             set 
             {
                 _pwd = value;
-                
+                RaisePropertyChanged();
             }
         }
         #endregion
@@ -270,6 +358,7 @@ namespace DailyAPP.WPF.ViewModels
             }
         }
         #endregion
+
 
         
     }

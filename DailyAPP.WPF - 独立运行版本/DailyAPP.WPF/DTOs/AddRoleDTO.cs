@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace DailyAPP.WPF.DTOs
 {
-    internal class AddRoleDTO
+    public class AddRoleDTO
     {
+        /// <summary>
+        /// 角色名
+        /// </summary>
+        public string? RoleName { get; set; }
+
+        /// <summary>
+        /// 角色编码
+        /// </summary>
+        public string? RoleCode { get; set; }
+
     }
 }

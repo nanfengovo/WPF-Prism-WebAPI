@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,26 +11,38 @@ namespace DailyAPP.WPF.DTOs
     /// <summary>
     /// 账户DTO
     /// </summary>
-    public class AccountInfoDTO
+    public class AccountInfoDTO:INotifyPropertyChanged
     {
-        /// <summary>
-        /// 账号名称
-        /// </summary>
-        public string Name { get; set; }
+        private string _name;
+        public string Name
+        {
+            get => _name;
+            set { _name = value; OnPropertyChanged(nameof(Name)); }
+        }
 
-        /// <summary>
-        /// 登录账号
-        /// </summary>
-        public string Account { get; set; }
+        private string _account;
+        public string Account
+        {
+            get => _account;
+            set { _account = value; OnPropertyChanged(nameof(Account)); }
+        }
 
-        /// <summary>
-        /// 密码
-        /// </summary>
-        public string Pwd { get; set; }
+        private string _pwd;
+        public string Pwd
+        {
+            get => _pwd;
+            set { _pwd = value; OnPropertyChanged(nameof(Pwd)); }
+        }
 
-        /// <summary>
-        /// 再次输入密码
-        /// </summary>
-        public string ConfrmPwd { get; set; }
+        private string _confrmPwd;
+        public string ConfrmPwd
+        {
+            get => _confrmPwd;
+            set { _confrmPwd = value; OnPropertyChanged(nameof(ConfrmPwd)); }
+        }
+
+        public event PropertyChangedEventHandler? PropertyChanged;
+        protected void OnPropertyChanged(string propertyName) =>
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
     }
 }

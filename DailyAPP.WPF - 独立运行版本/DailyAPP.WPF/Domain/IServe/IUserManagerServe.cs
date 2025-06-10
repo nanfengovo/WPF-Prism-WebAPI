@@ -22,6 +22,15 @@ namespace DailyAPP.WPF.Domain.IServe
         /// </summary>
         /// <param name="account"></param>
         /// <returns></returns>
-        Task<(bool, string)> LoginAsync(string Account,string Pwd);    
+        Task<(bool, string)> LoginAsync(string Account,string Pwd);
+
+        /// <summary>
+        /// 重置密码
+        /// </summary>
+        /// <param name="Account"></param>
+        /// <param name="Pwd"></param>
+        /// <param name="Pwdagain"></param>
+        /// <returns></returns>
+        Task<(bool,string)> ResetPwdAsync(string Account, string Pwd,string newPwd,string Pwdagain );
     }
 }

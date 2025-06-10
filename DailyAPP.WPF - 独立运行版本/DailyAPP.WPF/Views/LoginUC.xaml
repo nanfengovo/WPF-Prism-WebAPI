@@ -56,7 +56,13 @@
                                 </i:EventTrigger>
                             </i:Interaction.Triggers>
                         </TextBlock>
-                        <TextBlock Text="忘记密码" DockPanel.Dock="Right"></TextBlock>
+                        <TextBlock Text="忘记密码" DockPanel.Dock="Right">
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="MouseLeftButtonDown">
+                                    <i:InvokeCommandAction Command="{Binding ShowResetPwdCmm}" />
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+                        </TextBlock>
                     </DockPanel>
                 </DockPanel>
 
@@ -81,6 +87,35 @@
                         </i:Interaction.Behaviors>
                     </PasswordBox>
                     <Button Content="注册账号" DockPanel.Dock="Top" Command="{Binding Regcmm}"></Button>
+                    <Button Content="返回登录" DockPanel.Dock="Top" Margin="0 10" Style="{StaticResource MaterialDesignOutlinedButton}" Command="{Binding ShowLogInfoCmm}"></Button>
+                </DockPanel>
+            </md:TransitionerSlide>
+
+            <!--忘记密码-->
+            <md:TransitionerSlide>
+                <DockPanel Margin="15" VerticalAlignment="Center">
+                    <TextBlock Text="修改密码" FontWeight="Bold" FontSize="22" Margin="0,10" DockPanel.Dock="Top"></TextBlock>
+                    <TextBox md:HintAssist.Hint="请输入账号" DockPanel.Dock="Top"  Margin="0,10" Text="{Binding AccountInfoDTO.Account}" ></TextBox>
+                    <!--自定义扩展属性 附加属性（是依赖属性的一种）-->
+                    <PasswordBox md:HintAssist.Hint="请输入原密码" DockPanel.Dock="Top"  Margin="0,10" pwdEx:PasswordBoxExtend.Pwd="{Binding Pwd, Mode =TwoWay,UpdateSourceTrigger=PropertyChanged}" >
+                        <i:Interaction.Behaviors>
+                            <pwdEx:PasswordBoxBehavior >
+                            </pwdEx:PasswordBoxBehavior >
+                        </i:Interaction.Behaviors>
+                    </PasswordBox>
+                    <PasswordBox md:HintAssist.Hint="请输入新密码" DockPanel.Dock="Top"  Margin="0,10" pwdEx:PasswordBoxExtend.Pwd="{Binding AccountInfoDTO.Pwd, Mode =TwoWay,UpdateSourceTrigger=PropertyChanged}" >
+                        <i:Interaction.Behaviors>
+                            <pwdEx:PasswordBoxBehavior >
+                            </pwdEx:PasswordBoxBehavior >
+                        </i:Interaction.Behaviors>
+                    </PasswordBox>
+                    <PasswordBox md:HintAssist.Hint="请再次输入密码" DockPanel.Dock="Top"  Margin="0,10" pwdEx:PasswordBoxExtend.Pwd="{Binding AccountInfoDTO.ConfrmPwd, Mode =TwoWay,UpdateSourceTrigger=PropertyChanged}" >
+                        <i:Interaction.Behaviors>
+                            <pwdEx:PasswordBoxBehavior >
+                            </pwdEx:PasswordBoxBehavior >
+                        </i:Interaction.Behaviors>
+                    </PasswordBox>
+                    <Button Content="修改密码" DockPanel.Dock="Top" Command="{Binding ResetPwdcmm}"></Button>
                     <Button Content="返回登录" DockPanel.Dock="Top" Margin="0 10" Style="{StaticResource MaterialDesignOutlinedButton}" Command="{Binding ShowLogInfoCmm}"></Button>
                 </DockPanel>
             </md:TransitionerSlide>
