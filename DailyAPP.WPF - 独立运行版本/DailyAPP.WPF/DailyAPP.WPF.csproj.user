@@ -2,6 +2,9 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="ViewModels\RoleManagerUCViewModel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\AboutUsUC.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -26,10 +29,16 @@
     <Compile Update="Views\PersonalUC.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\RoleManagerUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\SettingUC.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\SysSetUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\UserManagerUC.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\WaitUC.xaml.cs">

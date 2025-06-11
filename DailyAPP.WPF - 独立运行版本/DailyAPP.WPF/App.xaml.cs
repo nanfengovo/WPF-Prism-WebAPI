@@ -53,6 +53,8 @@ namespace DailyAPP.WPF
             containerRegistry.RegisterForNavigation<WaitUC, WaitUCViewModel>();
             //备忘录
             containerRegistry.RegisterForNavigation<MemoUC, MemoUCViewModel>();
+            //用户管理
+            containerRegistry.RegisterForNavigation<UserManagerUC, UserManagerUCViewModel>();
             //设置页
             containerRegistry.RegisterForNavigation<SettingUC, SettingUCViewModel>();
 

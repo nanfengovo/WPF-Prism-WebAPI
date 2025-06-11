@@ -19,8 +19,18 @@ namespace DailyAPP.WPF.EntityFrameCore.Config
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string conStr = "Server = . ;Database = DailyAppWPF;Trusted_Connection = true";
-            optionsBuilder.UseSqlServer(conStr);
+            #region 数据库使用SqlServer 需要搭配EntityFrameworkCore.SqlServer
+            //string conStr = "Server = . ;Database = DailyAppWPF;Trusted_Connection = true";
+            //optionsBuilder.UseSqlServer(conStr);
+            #endregion
+
+            #region 数据库使用SQLite 需要搭配EntityFrameworkCore.Sqlite
+            //相对路径 无效
+            optionsBuilder.UseSqlite("Data Source=DailyAppWPF.db");
+            //绝对路径 可以
+            //optionsBuilder.UseSqlite("Data Source=E:\\Code\\项目--学习\\WPF(Prism)+WebAPI\\DailyAPP.WPF - 独立运行版本\\DailyAPP.WPF\\DailyAppWPF.db");
+            #endregion
+
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
