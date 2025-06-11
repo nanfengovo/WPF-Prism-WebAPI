@@ -1,12 +1,150 @@
-﻿<UserControl x:Class="DailyAPP.WPF.Views.UserManagerUC"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:DailyAPP.WPF.Views"
-             mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-            
-    </Grid>
+﻿<UserControl
+    x:Class="DailyAPP.WPF.Views.UserManagerUC"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:DailyAPP.WPF.Converters"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:viewmodels="clr-namespace:DailyAPP.WPF.ViewModels"
+    d:DataContext="{d:DesignInstance Type=viewmodels:LoginUCViewModel}"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <UserControl.Resources>
+        <local:RowIndexConverter x:Key="RowIndexConverter" />
+    </UserControl.Resources>
+
+    <DockPanel x:Name="UserManager">
+        <!--  顶栏  -->
+        <DockPanel DockPanel.Dock="Top">
+            <WrapPanel DockPanel.Dock="Left">
+                <TextBlock
+                    Margin="10,5,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    FontSize="20"
+                    Text="用户名称：" />
+                <TextBox
+                    x:Name="SearchTextBox"
+                    Width="150"
+                    Height="28"
+                    Margin="10,5,0,0"
+                    VerticalAlignment="Top"
+                    md:HintAssist.Hint="输入要搜索的用户"
+                    IsEnabled="True"
+                    Style="{x:Null}"
+                    Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}"
+                    TextWrapping="Wrap" />
+                <Button
+                    Width="80"
+                    Height="28"
+                    Margin="10,5,0,0"
+                    Style="{StaticResource MaterialDesignRaisedDarkButton}"
+                    ToolTip="Resource name: MaterialDesignRaisedLightDarkButton">
+                    <StackPanel Orientation="Horizontal">
+                        <md:PackIcon
+                            Width="16"
+                            Height="16"
+                            Margin="0,0,4,0"
+                            Kind="Magnify" />
+                        <TextBlock Text="搜索" />
+                    </StackPanel>
+                </Button>
+                <Button
+                    Width="80"
+                    Height="28"
+                    Margin="10,5,0,0"
+                    Style="{StaticResource MaterialDesignRaisedDarkButton}"
+                    ToolTip="Resource name: MaterialDesignRaisedLightDarkButton">
+                    <StackPanel Orientation="Horizontal">
+                        <md:PackIcon
+                            Width="16"
+                            Height="16"
+                            Margin="0,0,4,0"
+                            Kind="Restart" />
+                        <TextBlock Text="重置" />
+                    </StackPanel>
+                </Button>
+            </WrapPanel>
+
+            <WrapPanel HorizontalAlignment="Right" DockPanel.Dock="Right">
+                <Button
+                    Width="80"
+                    Height="28"
+                    Margin="10,5,0,0"
+                    Style="{StaticResource MaterialDesignRaisedDarkButton}"
+                    ToolTip="Resource name: MaterialDesignRaisedLightDarkButton">
+                    <StackPanel Orientation="Horizontal">
+                        <md:PackIcon
+                            Width="16"
+                            Height="16"
+                            Margin="0,0,4,0"
+                            Kind="AccountPlus" />
+                        <TextBlock Text="添加" />
+                    </StackPanel>
+                </Button>
+                <Button
+                    Width="80"
+                    Height="28"
+                    Margin="10,5,0,0"
+                    Style="{StaticResource MaterialDesignRaisedDarkButton}"
+                    ToolTip="Resource name: MaterialDesignRaisedLightDarkButton">
+                    <StackPanel Orientation="Horizontal">
+                        <md:PackIcon
+                            Width="16"
+                            Height="16"
+                            Margin="0,0,4,0"
+                            Kind="AccountEdit" />
+                        <TextBlock Text="编辑用户" />
+                    </StackPanel>
+                </Button>
+            </WrapPanel>
+        </DockPanel>
+
+        <!--  数据栏  -->
+        <DataGrid
+            x:Name="dataGrid"
+            AutoGenerateColumns="False"
+            IsReadOnly="True"
+            ItemsSource="{Binding UserList}">
+            <DataGrid.Columns>
+                <!--  选择列  -->
+                <DataGridCheckBoxColumn
+                    Width="60"
+                    Binding="{Binding IsSelected, UpdateSourceTrigger=PropertyChanged}"
+                    Header="选择"
+                    IsReadOnly="False" />
+                <DataGridTextColumn
+                    Width="*"
+                    MinWidth="50"
+                    MaxWidth="100"
+                    Binding="{Binding RelativeSource={RelativeSource AncestorType=DataGridRow},
+                    Converter={StaticResource RowIndexConverter}}"
+                    CanUserSort="False"
+                    Header="行号" />
+                <DataGridTextColumn
+                    Width="*"
+                    Binding="{Binding UserName}"
+                    CanUserSort="False"
+                    Header="用户名" />
+                <DataGridTextColumn
+                    Width="*"
+                    Binding="{Binding UserRoles}"
+                    CanUserSort="False"
+                    Header="角色" />
+                <DataGridTextColumn
+                    Width="*"
+                    Binding="{Binding CreateTime, StringFormat=yyyy-MM-dd HH:mm:ss}"
+                    CanUserSort="False"
+                    Header="创建时间" />
+                <DataGridTextColumn
+                    Width="*"
+                    Binding="{Binding LastModifiedTime, StringFormat=yyyy-MM-dd HH:mm:ss}"
+                    CanUserSort="False"
+                    Header="修改时间" />
+            </DataGrid.Columns>
+
+        </DataGrid>
+    </DockPanel>
 </UserControl>

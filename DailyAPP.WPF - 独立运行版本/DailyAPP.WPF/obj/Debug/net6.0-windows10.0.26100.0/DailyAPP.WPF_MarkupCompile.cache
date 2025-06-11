@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\App.xaml
-14-400539491
+13-480672667
 11859745443
-59-2002706377
+61-320179631
 233615690161
-ViewModels\RoleManagerUCViewModel.xaml;Views\AboutUsUC.xaml;Views\Dialogs\AddWaitUC.xaml;Views\Dialogs\EditWaitUC.xaml;Views\HomeUC.xaml;Views\LoginUC.xaml;Views\MainWin.xaml;Views\MemoUC.xaml;Views\PersonalUC.xaml;Views\RoleManagerUC.xaml;Views\SettingUC.xaml;Views\SysSetUC.xaml;Views\UserManagerUC.xaml;Views\WaitUC.xaml;
+Views\AboutUsUC.xaml;Views\Dialogs\AddWaitUC.xaml;Views\Dialogs\EditWaitUC.xaml;Views\HomeUC.xaml;Views\LoginUC.xaml;Views\MainWin.xaml;Views\MemoUC.xaml;Views\PersonalUC.xaml;Views\RoleManagerUC.xaml;Views\SettingUC.xaml;Views\SysSetUC.xaml;Views\UserManagerUC.xaml;Views\WaitUC.xaml;
 
 False
 

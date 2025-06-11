@@ -32,5 +32,11 @@ namespace DailyAPP.WPF.Domain.IServe
         /// <param name="Pwdagain"></param>
         /// <returns></returns>
         Task<(bool,string)> ResetPwdAsync(string Account, string Pwd,string newPwd,string Pwdagain );
+
+        /// <summary>
+        /// 获取所有用户
+        /// </summary>
+        /// <returns></returns>
+        List<UserDTO> GetAllUser();
     }
 }

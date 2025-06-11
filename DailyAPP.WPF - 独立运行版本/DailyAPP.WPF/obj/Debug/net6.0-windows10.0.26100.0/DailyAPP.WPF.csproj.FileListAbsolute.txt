@@ -54,6 +54,7 @@ E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF\DailyAPP.WPF\obj\Debug\net
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\Views\Dialogs\AddWaitUC.baml
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\Views\Dialogs\EditWaitUC.g.cs
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\Views\Dialogs\EditWaitUC.baml
+E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\bin\Debug\net6.0-windows10.0.26100.0\DailyAppWPF.db
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\bin\Debug\net6.0-windows10.0.26100.0\DailyAPP.WPF.exe
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\bin\Debug\net6.0-windows10.0.26100.0\DailyAPP.WPF.deps.json
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\bin\Debug\net6.0-windows10.0.26100.0\DailyAPP.WPF.runtimeconfig.json
@@ -136,7 +137,6 @@ E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\Daily
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\bin\Debug\net6.0-windows10.0.26100.0\Microsoft.Windows.SDK.NET.dll
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\bin\Debug\net6.0-windows10.0.26100.0\WinRT.Runtime.dll
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\DailyAPP.WPF.csproj.AssemblyReference.cache
-E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\ViewModels\RoleManagerUCViewModel.g.cs
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\Views\AboutUsUC.g.cs
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\Views\Dialogs\AddWaitUC.g.cs
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\Views\Dialogs\EditWaitUC.g.cs
@@ -151,11 +151,11 @@ E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\Daily
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\Views\UserManagerUC.g.cs
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\Views\WaitUC.g.cs
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\App.g.cs
+E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\DailyAPP.WPF_Content.g.cs
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\GeneratedInternalTypeHelper.g.cs
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\DailyAPP.WPF_MarkupCompile.cache
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\DailyAPP.WPF_MarkupCompile.lref
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\App.baml
-E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\ViewModels\RoleManagerUCViewModel.baml
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\Views\AboutUsUC.baml
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\Views\Dialogs\AddWaitUC.baml
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\Views\Dialogs\EditWaitUC.baml
@@ -181,5 +181,3 @@ E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\Daily
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\DailyAPP.WPF.pdb
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\DailyAPP.WPF.genruntimeconfig.cache
 E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\ref\DailyAPP.WPF.dll
-E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\bin\Debug\net6.0-windows10.0.26100.0\DailyAppWPF.db
-E:\Code\项目--学习\WPF(Prism)+WebAPI\DailyAPP.WPF - 独立运行版本\DailyAPP.WPF\obj\Debug\net6.0-windows10.0.26100.0\DailyAPP.WPF_Content.g.cs

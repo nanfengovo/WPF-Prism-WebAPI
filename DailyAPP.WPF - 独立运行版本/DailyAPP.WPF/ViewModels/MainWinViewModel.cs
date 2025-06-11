@@ -81,7 +81,7 @@ namespace DailyAPP.WPF.ViewModels
             LeftMenulist.Add(new LeftMenuInfo() { Icon = "Home", MenuName = "首页", ViewName = "HomeUC" });
             LeftMenulist.Add(new LeftMenuInfo() { Icon = "NotebookOutline", MenuName = "待办事项", ViewName = "WaitUC" });
             LeftMenulist.Add(new LeftMenuInfo() { Icon = "NotebookPlus", MenuName = "备忘录", ViewName = "MemoUC" });
-            LeftMenulist.Add(new LeftMenuInfo() { Icon = "UserGroup", MenuName = "用户管理", ViewName = "UserManagerUC" });
+            LeftMenulist.Add(new LeftMenuInfo() { Icon = "UserGroup", MenuName = "角色管理", ViewName = "RoleManagerUC" });
             LeftMenulist.Add(new LeftMenuInfo() { Icon = "UserBoxes", MenuName = "用户管理", ViewName = "UserManagerUC" });
             LeftMenulist.Add(new LeftMenuInfo() { Icon = "Cog", MenuName = "设置", ViewName = "SettingUC" });
         }

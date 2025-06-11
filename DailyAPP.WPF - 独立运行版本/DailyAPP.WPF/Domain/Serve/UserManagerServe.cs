@@ -3,6 +3,7 @@ using DailyAPP.WPF.DTOs;
 using DailyAPP.WPF.EntityFrameCore.Config;
 using DailyAPP.WPF.EntityFrameCore.EntityModel;
 using DailyAPP.WPF.HttpClients;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -101,6 +102,18 @@ namespace DailyAPP.WPF.Domain.Serve
                     return Task.FromResult((true, "密码重置成功！"));
                 }
             }
+        }
+
+        public List<UserDTO> GetAllUser()
+        {
+            var users = _dbContext.Users.Where(x => x.IsDeleted == false).Select(user => new UserDTO
+            {
+                UserName = user.UserName,
+                UserRoles = user.UserRoles.ToList(), // 通过导航属性获取角色列表
+                CreateTime = user.CreateTime,
+                LastModifiedTime = user.LastModifiedTime
+            }).ToList();
+            return users;
         }
     }
 }
