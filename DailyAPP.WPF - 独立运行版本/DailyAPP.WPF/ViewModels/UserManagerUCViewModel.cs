@@ -1,6 +1,7 @@
 ﻿using DailyAPP.WPF.Domain.IServe;
 using DailyAPP.WPF.DTOs;
 using DailyAPP.WPF.EntityFrameCore.EntityModel;
+using Prism.Commands;
 using Prism.Mvvm;
 using System;
 using System.Collections.Generic;
@@ -17,7 +18,7 @@ namespace DailyAPP.WPF.ViewModels
         public UserManagerUCViewModel(IUserManagerServe userManagerServe)
         {
             _userManagerServe = userManagerServe;
-
+            ShowAddUserCmm = new DelegateCommand(ShowAddUser);
             GetUserList();
         }
 
@@ -63,5 +64,31 @@ namespace DailyAPP.WPF.ViewModels
         {
             UserList = _userManagerServe.GetAllUser();
         }
+
+
+        #region 显示添加用户
+        private bool _IsShowAddUser;
+
+        public bool IsShowAddUser
+        {
+            get { return _IsShowAddUser; }
+            set
+            {
+                _IsShowAddUser = value;
+                RaisePropertyChanged();
+            }
+        }
+
+        /// <summary>
+        /// 添加备忘录事项
+        /// </summary>
+        private void ShowAddUser()
+        {
+            IsShowAddUser = true;
+        }
+
+        //显示添加备忘录命令
+        public DelegateCommand ShowAddUserCmm { get; set; }
+        #endregion
     }
 }
